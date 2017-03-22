@@ -1,0 +1,728 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sbol: <http://sbols.org/v2#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix seva: <http://wiki.synbiohub.org/wiki/Terms/seva#> .
+
+<http://synbiohub.org/public/seva/Ap/1>
+    dcterms:description "Seva Ap" ;
+    dcterms:title "Ampicilin" ;
+    sbol:displayId "Ap" ;
+    seva:antibioticResistanceNumber "1" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/Ap> ;
+    sbol:role <http://identifiers.org/so/SO:0000704> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqAp> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/CFP/1>
+    dcterms:description "Seva CFP" ;
+    dcterms:title "CFP" ;
+    sbol:displayId "CFP" ;
+    seva:cargoNumber "7C" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/CFP> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqCFP> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/Cm/1>
+    dcterms:description "Seva Chloramfenicol" ;
+    dcterms:title "Chloramfenicol" ;
+    sbol:displayId "Cm" ;
+    seva:antibioticResistanceNumber "3" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/Cm> ;
+    sbol:role <http://identifiers.org/so/SO:0000704> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqCm> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/DsRed2/1>
+    dcterms:description "Seva DsRed2" ;
+    dcterms:title "DsRed2" ;
+    sbol:displayId "DsRed2" ;
+    seva:cargoNumber "7D" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/DsRed2> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqDsRed2> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/EcFbFP/1>
+    dcterms:description "Seva EcFbFP" ;
+    dcterms:title "EcFbFP" ;
+    sbol:displayId "EcFbFP" ;
+    seva:cargoNumber "7F" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/EcFbFP> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqEcFbFP> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/GFP/1>
+    dcterms:description "Seva GFP" ;
+    dcterms:title "GFP" ;
+    sbol:displayId "GFP" ;
+    seva:cargoNumber "7" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/GFP> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqGFP> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/Gm/1>
+    dcterms:description "Seva Gentamicin" ;
+    dcterms:title "Gentamicin" ;
+    sbol:displayId "Gm" ;
+    seva:antibioticResistanceNumber "6" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/Gm> ;
+    sbol:role <http://identifiers.org/so/SO:0000704> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqGm> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/Km/1>
+    dcterms:description "Seva Kanamycin" ;
+    dcterms:title "Kanamycin" ;
+    sbol:displayId "Km" ;
+    seva:antibioticResistanceNumber "2" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/Km> ;
+    sbol:role <http://identifiers.org/so/SO:0000704> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqKm> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/Mcs_Default/1>
+    dcterms:description "Seva Mcs_Default" ;
+    dcterms:title "Mcs_Default" ;
+    sbol:displayId "Mcs_Default" ;
+    seva:cargoNumber "1" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/Mcs_Default> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqMcs_Default> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/PEM7/1>
+    dcterms:description "Seva PEM7" ;
+    dcterms:title "PEM7" ;
+    sbol:displayId "PEM7" ;
+    seva:cargoNumber "13" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/PEM7> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqPEM7> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/R6K/1>
+    dcterms:description "Seva R6K" ;
+    dcterms:title "R6K" ;
+    sbol:displayId "R6K" ;
+    seva:originOfReplicationNumber "1" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/R6K> ;
+    sbol:role <http://identifiers.org/so/SO:0000296> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqR6K> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/RK2/1>
+    dcterms:description "Seva RK2" ;
+    dcterms:title "RK2" ;
+    sbol:displayId "RK2" ;
+    seva:originOfReplicationNumber "2" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/RK2> ;
+    sbol:role <http://identifiers.org/so/SO:0000296> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqRK2> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/RSF1010/1>
+    dcterms:description "Seva RSF1010" ;
+    dcterms:title "RSF1010" ;
+    sbol:displayId "RSF1010" ;
+    seva:originOfReplicationNumber "5" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/RSF1010> ;
+    sbol:role <http://identifiers.org/so/SO:0000296> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqRSF1010> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/Sm/1>
+    dcterms:description "Seva Streptomycin" ;
+    dcterms:title "Streptomycin" ;
+    sbol:displayId "Sm" ;
+    seva:antibioticResistanceNumber "4" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/Sm> ;
+    sbol:role <http://identifiers.org/so/SO:0000704> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqSm> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/T5_lacO/1>
+    dcterms:description "Seva T5_lacO" ;
+    dcterms:title "T5_lacO" ;
+    sbol:displayId "T5_lacO" ;
+    seva:cargoNumber "4F" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/T5_lacO> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqT5_lacO> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/T7_lacO/1>
+    dcterms:description "Seva T7_lacO" ;
+    dcterms:title "T7_lacO" ;
+    sbol:displayId "T7_lacO" ;
+    seva:cargoNumber "4E" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/T7_lacO> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqT7_lacO> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/Tc/1>
+    dcterms:description "Seva Tetracyclin" ;
+    dcterms:title "Tetracyclin" ;
+    sbol:displayId "Tc" ;
+    seva:antibioticResistanceNumber "5" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/Tc> ;
+    sbol:role <http://identifiers.org/so/SO:0000704> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqTc> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/YFP/1>
+    dcterms:description "Seva YFP" ;
+    dcterms:title "YFP" ;
+    sbol:displayId "YFP" ;
+    seva:cargoNumber "7Y" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/YFP> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqYFP> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/alkS_PalkB/1>
+    dcterms:description "Seva alkS_PalkB" ;
+    dcterms:title "alkS_PalkB" ;
+    sbol:displayId "alkS_PalkB" ;
+    seva:cargoNumber "9" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/alkS_PalkB> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqalkS_PalkB> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/araC_pBAD/1>
+    dcterms:description "Seva araC_pBAD" ;
+    dcterms:title "araC_pBAD" ;
+    sbol:displayId "araC_pBAD" ;
+    seva:cargoNumber "10" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/araC_pBAD> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqaraC_pBAD> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/lacIq_Ptac/1>
+    dcterms:description "Seva lacIq_Ptac" ;
+    dcterms:title "lacIq-Ptac" ;
+    sbol:displayId "lacIq_Ptac" ;
+    seva:cargoNumber "4R" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/lacIq_Ptac> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqlacIq_Ptac> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/lacIq_Ptrc/1>
+    dcterms:description "Seva lacIq_Ptrc" ;
+    dcterms:title "lacIq_Ptrc" ;
+    sbol:displayId "lacIq_Ptrc" ;
+    seva:cargoNumber "4" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/lacIq_Ptrc> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqlacIq_Ptrc> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/lacZ/1>
+    dcterms:description "Seva lacZ" ;
+    dcterms:title "lacZ" ;
+    sbol:displayId "lacZ" ;
+    seva:cargoNumber "5" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/lacZ> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqlacZ> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/lacZ_pUC18/1>
+    dcterms:description "Seva lacZ_pUC18" ;
+    dcterms:title "lacZ_pUC18" ;
+    sbol:displayId "lacZ_pUC18" ;
+    seva:cargoNumber "3" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/lacZ_pUC18> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqlacZ_pUC18> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/lacZ_pUC19/1>
+    dcterms:description "Seva lacZ_pUC19" ;
+    dcterms:title "lacZ_pUC19" ;
+    sbol:displayId "lacZ_pUC19" ;
+    seva:cargoNumber "2" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/lacZ_pUC19> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqlacZ_pUC19> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/lacZ_pUC19_I_SceI/1>
+    dcterms:description "Seva lacZ_pUC19_I_SceI" ;
+    dcterms:title "lacZ_pUC19_I_SceI" ;
+    sbol:displayId "lacZ_pUC19_I_SceI" ;
+    seva:cargoNumber "2S" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/lacZ_pUC19_I_SceI> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqlacZ_pUC19_I_SceI> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/lacZ_translational/1>
+    dcterms:description "Seva lacZ_translational" ;
+    dcterms:title "lacZ_translational" ;
+    sbol:displayId "lacZ_translational" ;
+    seva:cargoNumber "5T" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/lacZ_translational> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqlacZ_translational> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/luxCDABE/1>
+    dcterms:description "Seva luxCDABE" ;
+    dcterms:title "luxCDABE" ;
+    sbol:displayId "luxCDABE" ;
+    seva:cargoNumber "6" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/luxCDABE> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqluxCDABE> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/mCherry/1>
+    dcterms:description "Seva mCherry" ;
+    dcterms:title "mCherry" ;
+    sbol:displayId "mCherry" ;
+    seva:cargoNumber "7R" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/mCherry> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqmCherry> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/msfGFP/1>
+    dcterms:description "Seva msfGFP" ;
+    dcterms:title "msfGFP" ;
+    sbol:displayId "msfGFP" ;
+    seva:cargoNumber "7M" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/msfGFP> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqmsfGFP> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/p15A/1>
+    dcterms:description "Seva p15A" ;
+    dcterms:title "p15A" ;
+    sbol:displayId "p15A" ;
+    seva:originOfReplicationNumber "6" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/p15A> ;
+    sbol:role <http://identifiers.org/so/SO:0000296> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqp15A> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/pBBR1/1>
+    dcterms:description "Seva pBBR1" ;
+    dcterms:title "pBBR1" ;
+    sbol:displayId "pBBR1" ;
+    seva:originOfReplicationNumber "3" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/pBBR1> ;
+    sbol:role <http://identifiers.org/so/SO:0000296> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqpBBR1> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/pBBR322_ROP/1>
+    dcterms:description "Seva pBBR322_ROP" ;
+    dcterms:title "pBBR322_ROP" ;
+    sbol:displayId "pBBR322_ROP" ;
+    seva:originOfReplicationNumber "9" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/pBBR322_ROP> ;
+    sbol:role <http://identifiers.org/so/SO:0000296> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqpBBR322_ROP> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/pRO1600_ColE1/1>
+    dcterms:description "Seva pRO1600_ColE1" ;
+    dcterms:title "pRO1600_ColE1" ;
+    sbol:displayId "pRO1600_ColE1" ;
+    seva:originOfReplicationNumber "4" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/pRO1600_ColE1> ;
+    sbol:role <http://identifiers.org/so/SO:0000296> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqpRO1600_ColE1> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/pSC101/1>
+    dcterms:description "Seva pSC101" ;
+    dcterms:title "pSC101" ;
+    sbol:displayId "pSC101" ;
+    seva:originOfReplicationNumber "7" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/pSC101> ;
+    sbol:role <http://identifiers.org/so/SO:0000296> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqpSC101> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/pUC/1>
+    dcterms:description "Seva pUC" ;
+    dcterms:title "pUC" ;
+    sbol:displayId "pUC" ;
+    seva:originOfReplicationNumber "8" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/pUC> ;
+    sbol:role <http://identifiers.org/so/SO:0000296> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqpUC> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/xylS_Pm/1>
+    dcterms:description "Seva xylS_Pm" ;
+    dcterms:title "xylS_Pm" ;
+    sbol:displayId "xylS_Pm" ;
+    seva:cargoNumber "8" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/xylS_Pm> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqxylS_Pm> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/xylS_Pm_RBS/1>
+    dcterms:description "Seva xylS_Pm_RBS" ;
+    dcterms:title "xylS_Pm_RBS" ;
+    sbol:displayId "xylS_Pm_RBS" ;
+    seva:cargoNumber "8S" ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/xylS_Pm_RBS> ;
+    sbol:role <http://identifiers.org/so/SO:0000280> ;
+    sbol:sequence <http://synbiohub.org/public/seva/seqxylS_Pm_RBS> ;
+    sbol:type <http://www.biopax.org/release/biopax-level3.owl#DnaRegion> ;
+    sbol:version "1" ;
+    a sbol:ComponentDefinition .
+
+<http://synbiohub.org/public/seva/seqAp/1>
+    sbol:displayId "seqAp" ;
+    sbol:elements "TAGTAGCCCGCCTAATGAGCGGGCTTTTTTTTAATTCCCCTATTTGTTTATTTTTCTAAATACATTCAAATATGTATCCGCTCATGAGACAATAACCCTGATAAATGCTTCAATAATATTGAAAAAGGAAGAGTATGAGCATTCAGCATTTTCGTGTGGCGCTGATTCCGTTTTTTGCGGCGTTTTGCCTGCCGGTGTTTGCGCATCCGGAAACCCTGGTGAAAGTGAAAGATGCGGAAGATCAACTGGGTGCGCGCGTGGGCTATATTGAACTGGATCTGAACAGCGGCAAAATTCTGGAATCTTTTCGTCCGGAAGAACGTTTTCCGATGATGAGCACCTTTAAAGTGCTGCTGTGCGGTGCGGTTCTGAGCCGTGTGGATGCGGGCCAGGAACAACTGGGCCGTCGTATTCATTATAGCCAGAACGATCTGGTGGAATATAGCCCGGTGACCGAAAAACATCTGACCGATGGCATGACCGTGCGTGAACTGTGCAGCGCGGCGATTACCATGAGCGATAACACCGCGGCGAACCTGCTGCTGACGACCATTGGCGGTCCGAAAGAACTGACCGCGTTTCTGCATAACATGGGCGATCATGTGACCCGTCTGGATCGTTGGGAACCGGAACTGAACGAAGCGATTCCGAACGATGAACGTGATACCACCATGCCGGCAGCAATGGCGACCACCCTGCGTAAACTGCTGACGGGTGAGCTGCTGACCCTGGCAAGCCGCCAGCAACTGATTGATTGGATGGAAGCGGATAAAGTGGCGGGTCCGCTGCTGCGTAGCGCGCTGCCGGCTGGCTGGTTTATTGCGGATAAAAGCGGTGCGGGCGAACGTGGCAGCCGTGGCATTATTGCGGCGCTGGGCCCGGATGGTAAACCGAGCCGTATTGTGGTGATTTATACCACCGGCAGCCAGGCGACGATGGATGAACGTAACCGTCAGATTGCGGAAATTGGCGCGAGCCTGATTAAACATTGGTAAACCGATACAATTAAAGGCTCCTTTTGGAGCCTTTTTTTTTGGAC" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqAp> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqCFP/1>
+    sbol:displayId "seqCFP" ;
+    sbol:elements "AGCGGATAACAATTTCACACAGGAGGCCGCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTAGGAGGAAAAACATATGGTGAGCAAGGGCGAGGAGCTGTTCACCGGGGTGGTGCCCATCCTGGTCGAGCTGGACGGCGACGTAAACGGCCACAAGTTCAGCGTGTCCGGCGAGGGCGAGGGCGATGCCACCTACGGCAAGCTGACCCTGAAGTTCATCTGCACCACCGGCAAGCTGCCCGTGCCCTGGCCCACCCTCGTGACCACCCTGACCTGGGGCGTGCAGTGCTTCAGCCGCTACCCCGACCACATGAAGCAGCACGACTTCTTCAAGTCCGCCATGCCCGAAGGCTACGTCCAGGAGCGCACCATCTTCTTCAAGGACGACGGCAACTACAAGACCCGCGCCGAGGTGAAGTTCGAGGGCGACACCCTGGTGAACCGCATCGAGCTGAAGGGCATCGACTTCAAGGAGGACGGCAACATCCTGGGGCACAAGCTGGAGTACAACTACATCAGCCACAACGTCTATATCACCGCCGACAAGCAGAAGAACGGCATCAAGGCCAACTTCAAGATCCGCCACAACATCGAGGACGGCAGCGTGCAGCTCGCCGACCACTACCAGCAGAACACCCCCATCGGCGACGGCCCCGTGCTGCTGCCCGACAACCACTACCTGAGCACCCAGTCCGCCCTGAGCAAAGACCCCAACGAGAAGCGCGATCACATGGTCCTGCTGGAGTTCGTGACCGCCGCCGGGATCACTCTCGGCATGGACGAGCTGTACAAGTAA" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqCFP> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqCm/1>
+    sbol:displayId "seqCm" ;
+    sbol:elements "TGGCGAAAATGAGACGTTGATCGGCACGTAAGAGGTTCCAACTTTCACCATAATGAAATAAGATCACTACCGGGCGTATTTTTTGAGTTATCGAGATTTTCAGGAGCTAAGGAAGCTAAAATGGAGAAAAAAATCACTGGATATACCACCGTTGATATATCCCAATGGCATCGTAAAGAACATTTTGAGGCATTTCAGTCAGTTGCTCAATGTACCTATAACCAGACCGTTCAGCTGGATATTACGGCCTTTTTAAAGACCGTAAAGAAAAATAAGCACAAGTTTTATCCGGCCTTTATTCACATTCTTGCCCGCCTGATGAATGCTCATCCGGAATTTCGTATGGCAATGAAAGACGGTGAGCTGGTGATATGGGATAGTGTTCACCCTTGTTACACCGTTTTCCATGAGCAAACTGAAACGTTTTCATCGCTCTGGAGTGAATACCACGACGATTTCCGGCAGTTTCTACACATATATTCGCAAGATGTGGCGTGTTACGGTGAAAACCTGGCCTATTTCCCTAAAGGGTTTATTGAGAATATGTTTTTCGTCTCAGCCAATCCCTGGGTGAGTTTCACCAGTTTTGATTTAAACGTGGCCAATATGGACAACTTCTTCGCCCCCGTTTTCACCATGGGCAAATATTATACGCAAGGCGACAAGGTGCTGATGCCGCTGGCGATTCAGGTTCATCATGCCGTTTGTGATGGCTTCCATGTCGGCAGAATGCTTAATGAATTACAACAGTACTGCGATGAGTGGCAGGGCGGGGCGTAATTT" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqCm> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqDsRed2/1>
+    sbol:displayId "seqDsRed2" ;
+    sbol:elements "AGCGGATAACAATTTCACACAGGAGGCCGCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTAGGAGGAAAAACATATGGCCTCCTCCGAGAACGTCATCACCGAGTTCATGCGCTTCAAGGTGCGCATGGAGGGCACCGTGAACGGCCACGAGTTCGAGATCGAGGGCGAGGGCGAGGGCCGCCCCTACGAGGGCCACAACACCGTGAAGCTGAAGGTGACCAAGGGCGGCCCCCTGCCCTTCGCCTGGGACATCCTGTCCCCCCAGTTCCAGTACGGCTCCAAGGTGTACGTGAAGCACCCCGCCGACATCCCCGACTACAAGAAGCTGTCCTTCCCCGAGGGCTTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGCGACCGTGACCCAGGACTCCTCCCTGCAAGACGGCTGCTTCATCTACAAGGTGAAGTTCATCGGCGTGAACTTCCCCTCCGACGGCCCCGTGATGCAGAAGAAGACCATGGGCTGGGAGGCCTCCACCGAGCGCCTGTACCCCCGCGACGGCGTGCTGAAGGGCGAGACCCACAAGGCCCTGAAGCTGAAGGACGGCGGCCACTACCTGGTGGAGTTCAAGTCCATCTACATGGCCAAGAAGCCCGTGCAGCTGCCCGGCTACTACTACGTGGACGCCAAGCTGGACATCACCTCCCACAACGAGGACTACACCATCGTGGAGCAGTACGAGCGCACCGAGGGCCGCCACCACCTGTTCCTGTAG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqDsRed2> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqEcFbFP/1>
+    sbol:displayId "seqEcFbFP" ;
+    sbol:elements "AGCGGATAACAATTTCACACAGGAGGCCGCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTAGGAGGAAAAACATATGGCGTCGTTCCAGTCGTTCGGCATTCCGGGCCAGCTGGAAGTCATCAAGAAGGCGCTGGATCACGTGCGCGTCGGCGTGGTCATCACCGATCCCGCGCTGGAAGATAACCCGATCGTCTACGTGAACCAGGGCTTCGTGCAGATGACCGGCTACGAGACCGAGGAAATCCTGGGCAAGAACGCGCGCTTCCTCCAGGGGAAGCACACCGATCCGGCGGAAGTGGACAACATCCGCACCGCGCTGCAAAATAAAGAACCGGTCACCGTGCAGATCCAGAACTACAAGAAGGACGGCACGATGTTCTGGAACGAACTGAACATCGATCCGATGGAAATCGAGGATAAGACGTATTTCGTCGGCATCCAGAACGACATCACCAAGCAGAAGGAATATGAAAAGCTGCTCTAA" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqEcFbFP> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqGFP/1>
+    sbol:displayId "seqGFP" ;
+    sbol:elements "AGCGGATAACAATTTCACACAGGAGGCCGCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTAGGAGGAAAAACATATGAGTAAAGGAGAAGAACTTTTCACTGGAGTTGTCCCAATTCTTGTTGAATTAGATGGTGATGTTAATGGGCACAAATTTTCTGTCAGTGGAGAGGGTGAAGGTGATGCAACATACGGAAAACTTACCCTTAAATTTATTTGCACTACTGGAAAACTACCTGTTCCATGGCCAACACTTGTCACTACTTTGACTTATGGTGTTCAATGCTTTTCAAGATACCCAGATCATATGAAACGGCATGACTTTTTCAAGAGTGCCATGCCCGAAGGTTATGTACAGGAAAGAACTATATTTTTCAAAGATGACGGGAACTACAAGACACGTGCTGAAGTCAAGTTTGAAGGTGATACCCTTGTTAATAGAATCGAGTTAAAAGGTATTGATTTTAAAGAAGATGGAAACATTCTTGGACACAAATTGGAATACAACTATAACTCACACAATGTATACATCATGGCAGACAAACAAAAGAATGGAATCAAAGTTAACTTCAAAATTAGACACAACATTGAAGATGGAAGCGTTCAACTAGCAGACCATTATCAACAAAATACTCCAATTGGCGATGGCCCTGTCCTTTTACCAGACAACCATTACCTGTCCACACAATCTGCCCTTTCGAAAGATCCCAACGAAAAGAGAGACCACATGGTCCTTCTTGAGTTTGTAACAGCTGCTGGGATTACACATGGCATGGATGAACTATACAAATAGCATTCGTATGTCTGCTATTTCGCGTATAGA" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqGFP> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqGm/1>
+    sbol:displayId "seqGm" ;
+    sbol:elements "TTGACATAAGCCTGTTCGGTTCGTAAACTGTAATGCAAGTAGCGTATGCGCTCACGCAACTGGTCCAGAACCTTGACCGAACGCAGCGGTGGTAACGGCGCAGTGGCGGTTTTCATGGCTTGTTATGACTGTTTTTTTGTACAGCCTATGCCTCGGGCATCCAAGCAGCAAGCGCGTTACGCCGTGGGTCGATGTTTGATGTTATGGAGCAGCAACGATGTTACGCAGCAGCAACGATGTTACGCAGCAGGGCAGTCGCCCTAAAACAAAGTTAGGTGGCTCAAGTATGGGCATCATTCGCACATGTAGGCTCGGCCCTGACCAAGTCAAATCCATGCGGGCTGCTCTTGATCTTTTCGGTCGTGAGTTCGGAGACGTAGCCACCTACTCCCAACATCAGCCGGACTCCGATTACCTCGGGAACTTGCTCCGTAGTAAGACATTCATCGCGCTTGCTGCCTTCGACCAAGAAGCGGTTGTTGGCGCTCTCGCGGCTTACGTTCTGCCCAAGTTTGAGCAGCCGCGTAGTGAGATCTATATCTATGATCTCGCAGTCTCCGGAGAGCACCGGAGGCAGGGCATTGCCACCGCGCTCATCAATCTCCTCAAGCATGAGGCCAACGCGCTTGGTGCTTATGTGATCTACGTGCAAGCAGATTACGGTGACGATCCCGCAGTGGCTCTCTATACAAAGTTGGGCATACGGGAAGAAGTGATGCACTTTGATATCGACCCAAGTACCGCCACCTAACAATTCGTTCAAGCCGAGATCGGCTTCCCGGCCGCGGAGTTGTTCGGTAAATTG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqGm> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqKm/1>
+    sbol:displayId "seqKm" ;
+    sbol:elements "TTGTGTCTCAAAATCTCTGATGTTACATTGCACAAGATAAAAATATATCATCATGAACAATAAAACTGTCTGCTTACATAAACAGTAATACAAGGGGTGTTATGAGCCATATTCAGCGTGAAACGAGCTGTAGCCGTCCGCGTCTGAACAGCAACATGGATGCGGATCTGTATGGCTATAAATGGGCGCGTGATAACGTGGGTCAGAGCGGCGCGACCATTTATCGTCTGTATGGCAAACCGGATGCGCCGGAACTGTTTCTGAAACATGGCAAAGGCAGCGTGGCGAACGATGTGACCGATGAAATGGTGCGTCTGAACTGGCTGACCGAATTTATGCCGCTGCCGACCATTAAACATTTTATTCGCACCCCGGATGATGCGTGGCTGCTGACCACCGCGATTCCGGGCAAAACCGCGTTTCAGGTGCTGGAAGAATATCCGGATAGCGGCGAAAACATTGTGGATGCGCTGGCCGTGTTTCTGCGTCGTCTGCATAGCATTCCGGTGTGCAACTGCCCGTTTAACAGCGATCGTGTGTTTCGTCTGGCCCAGGCGCAGAGCCGTATGAACAACGGCCTGGTGGATGCGAGCGATTTTGATGATGAACGTAACGGCTGGCCGGTGGAACAGGTGTGGAAAGAAATGCATAAACTGCTGCCGTTTAGCCCGGATAGCGTGGTGACCCACGGCGATTTTAGCCTGGATAACCTGATTTTCGATGAAGGCAAACTGATTGGCTGCATTGATGTGGGCCGTGTGGGCATTGCGGATCGTTATCAGGATCTGGCCATTCTGTGGAACTGCCTGGGCGAATTTAGCCCGAGCCTGCAAAAACGTCTGTTTCAGAAATATGGCATTGATAATCCGGATATGAACAAACTGCAATTTCATCTGATGCTGGATGAATTTTTCTAATAATTAATTG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqKm> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqMcs_Default/1>
+    sbol:displayId "seqMcs_Default" ;
+    sbol:elements "AGCGGATAACAATTTCACACAGGAGGCCGCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGCGGCCGCGTCGTGACTGGGAAAACCCTGGCG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqMcs_Default> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqPEM7/1>
+    sbol:displayId "seqPEM7" ;
+    sbol:elements "TTGTTGACAATTAATCATCGGCATAGTATATCGGCATAGTATAATACGACAAGGTGAGGAACTAAACCCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGCGGCCGCGTCGTGACTGGGAAAACCCTGGCG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqPEM7> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqR6K/1>
+    sbol:displayId "seqR6K" ;
+    sbol:elements "GATCTGAAGATCAGCAGTTCAACCTGTTGATAGTACGTACTAAGCTCTCATGTTTCACGTACTAAGCTCTCATGTTTAACGTACTAAGCTCTCATGTTTAACGAACTAAACCCTCATGGCTAACGTACTAAGCTCTCATGGCTAACGTACTAAGCTCTCATGTTTCACGTACTAAGCTCTCATGTTTGAACAATAAAATTAATATAAATCAGCAACTTAAATAGCCTCTAAGGTTTTAAGTTTTATAAGAAAAAAAAGAATATATAAGGCTTTTAAAGCCTTTAAGGTTTAACGGTTGTGGACAACAAGCCAGGGATGTAACGCACTGAGAAGCCCTTAGAGCCTCTCAAAGCAATTTTGAGTGACACAGGAACACTTAACGGCTGACATGG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqR6K> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqRK2/1>
+    sbol:displayId "seqRK2" ;
+    sbol:elements "GCGATGCAGGTGGCTGCTGAACCCCCAGCCGGAACTGACCCCACAAGGCCCTAGCGTTTGCAATGCACCAGGTCATCATTGACCCAGGCGTGTTCCACCAGGCCGCTGCCTCGCAACTCTTCGCAGGCTTCGCCGACCTGCTCGCGCCACTTCTTCACGCGGGTGGAATCCGATCCGCACATGAGGCGGAAGGTTTCCAGCTTGAGCGGGTACGGCTCCCGGTGCGAGCTGAAATAGTCGAACATCCGTCGGGCCGTCGGCGACAGCTTGCGGTACTTCTCCCATATGAATTTCGTGTAGTGGTCGCCAGCAAACAGCACGACGATTTCCTCGTCGATCAGGACCTGGCAACGGGACGTTTTCTTGCCACGGTCCAGGACGCGGAAGCGGTGCAGCAGCGACACCGATTCCAGGTGCCCAACGCGGTCGGACGTGAAGCCCATCGCCGTCGCCTGTAGGCGCGACAGGCATTCCTCGGCCTTCGTGTAATACCGGCCATTGATCGACCAGCCCAGGTCCTGGCAAAGCTCGTAGAACGTGAAGGTGATCGGCTCGCCGATAGGGGTGCGCTTCGCGTACTCCAACACCTGCTGCCACACCAGTTCGTCATCGTCGGCCCGCAGCTCGACGCCGGTGTAGGTGATCTTCACGTCCTTGTTGACGTGGAAAATGACCTTGTTTTGCAGCGCCTCGCGCGGGATTTTCTTGTTGCGCGTGGTGAACAGGGCAGAGCGGGCCGTGTCGTTTGGCATCGCTCGCATCGTGTCCGGCCACGGCGCAATATCGAACAAGGAAAGCTGCATTTCCTTGATCTGCTGCTTCGTGTGTTTCAGCAACGCGGCCTGCTTGGCTTCGCTGACCTGTTTTGCCAGGTCCTCGCCGGCGGTTTTTCGCTTCTTGGTCGTCATAGTTCCTCGCGTGTCGATGGTCATCGACTTCGCCAAACCTGCCGCCTCCTGTTCGAGACGACGCGAACGCTCCACGGCGGCCGATGGCGCGGGCAGGGCAGGGGGAGCCAGTTGCACGCTGTCGCGCTCGATCTTGGCCGTAGCTTGCTGGACTATCGAGCCGACGGACTGGAAGGTTTCGCGGGGCGCACGCATGACGGTGCGGCTTGCGATGGTTTCGGCATCCTCGGCGGAAAACCCCGCGTCGATCAGTTCTTGCCTGTATGCCTTCCGGTCAAACGTCCGATTCATTCACCCTCCTTGCGGGATTGCCCCGGAATTAATTCCCCGGATCGATCCGTCGATCTTGATCCCCTGCGCCATCAGATCCTTGGCGGCAAGAAAGCCATCCAGTTTACTTTGCAGGGCTTCCCAACCTTACCAGAGGGCGCCCCAGCTGGCAATTCCGGTTCGCTTGCTGTCCATAAAACCGCCCAGTCTAGCTATCGCCATGTAAGCCCACTGCAAGCTACCTGCTTTCTCTTTGCGCTTGCGTTTTCCCTTGTCCAGATAGCCCAGTAGCTGACATTCATCCGGGGTCAGCACCGTTTCTGCGGACTGGCTTTCTACGTGGCTGCCATTTTTGGGGTGAGGCCGTTCGCGGCCGAGGGGCGCAGCCCCTGGGGGGATGGGAGGCCCGCGTTAGCGGGCCGGGAGGGTTCGAGAAGGGGGGGCACCCCCCTTCGGCGTGCGCGGTCACGCGCACAGGGCGCAGCCCTGGTTAAAAACAAGGTTTATAAATATTGGTTTAAAAGCAGGTTAAAAGACAGGTTAGCGGTGGCCGAAAAACGGGCGGAAACCCTTGCAAATGCTGGATTTTCTGCCTGTGGACAGCCCCTCAAATGTCAATAGGTGCGCCCCTCATCTGTCAGCACTCTGCCCCTCAAGTGTCAAGGATCGCGCCCCTCATCTGTCAGTAGTCGCGCCCCTCAAGTGTCAATACCGCAGGGCACTTATCCCCAGGCTTGTCCACATCATCTGTGGGAAACTCGCGTAAAATCAGGCGTTTTCGCCGATTTGCGAGGCTGGCCAGCTCCACGTCGCCGGCCGAAATCGAGCCTGCCCCTCATCTGTCAACGCCGCGCCGGGTGAGTCGGCCCCTCAAGTGTCAACGTCCGCCCCTCATCTGTCAGTGAGGGCCAAGTTTTCCGCGAGGTATCCACAACGCCGGCGGCCCTACATGGCTCTGCTGTAGTGAGTGGGTTGCGCTCCGGCAGCGGTCCTGATCCCCCGCAGAAAAAAAGGATCTCAAGAAGATCCTTTGATCTTTTCTAC" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqRK2> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqRSF1010/1>
+    sbol:displayId "seqRSF1010" ;
+    sbol:elements "TCAGCCTGCCGCCTTGGGCCGGGTGATGTCGTACTTGCCCGCCGCGAACTCGGTTACCGTCCAGCCCAGCGCGACCAGCTCCGGCAACGCCTCGCGCACCCGCTGGCGGCGCTTGCGCATGGTCGAACCACTGGCCTCTGACGGCCAGACATAGCCGCACAAGGTATCTATGGAAGCCTTGCCGGTTTTGCCGGGGTCGATCCAGCCACACAGCCGCTGGTGCAGCAGGCGGGCGGTTTCGCTGTCCAGCGCCCGCACCTCGTCCATGCTGATGCGCACATGCTGGCCGCCACCCATGACGGCCTGCGCGATCAAGGGGTTCAGGGCCACGTACAGGCGCCCGTCCGCCTCGTCGCTGGCGTACTCCGACAGCAGCCGAAACCCCTGCCGCTTGCGGCCATTCTGGGCGATGATGGATACCTTCCAAAGGCGCTCGATGCAGTCCTGTATGTGCTTGAGCGCCCCACCACTATCGACCTCTGCCCCGATTTCCTTTGCCAGCGCCCGATAGCTACCTTTGACCACATGGCATTCAGCGGTGACGGCCTCCCACTTGGGTTCCAGGAACAGCCGGAGCTGCCGTCCGCCTTCGGTCTTGGGTTCCGGGCCAAGCACTAGGCCATTAGGCCCAGCCATGGCCACCAGCCCTTGCAGGATGCGCAGATCATCAGCGCCCAGCGGCTCCGGGCCGCTGAACTCGATCCGCTTGCCGTCGCCGTAGTCATACGTCACGTCCAGCTTGCTGCGCTTGCGCTCGCCCCGCTTGAGGGCACGGAACAGGCCGGGGGCCAGACAGTGCGCCGGGTCGTGCCGGACGTGGCTGAGGCTGTGCTTGTTCTTAGGCTTCACCACGGGGCACCCCCTTGCTCTTGCGCTGCCTCTCCAGCACGGCGGGCTTGAGCACCCCGCCGTCATGCCGCCTGAACCACCGATCAGCGAACGGTGCGCCATAGTTGGCCTTGCTCACACCGAAGCGGACGAAGAACCGGCGCTGGTCGTCGTCCACACCCCATTCCTCGGCCTCGGCGCTGGTCATGCTCGACAGGTAGGACTGCCAGCGGATGTTATCGACCAGTACCGAGCTGCCCCGGCTGGCCTGCTGCTGGTCGCCTGCGCCCATCATGGCCGCGCCCTTGCTGGCATGGTGCAGGAACACGATAGAGCACCCGGTATCGGCGGCGATGGCCTCCATGCGACCGATGACCTGGGCCATGGGGCCGCTGGCGTTTTCTTCCTCGATGTGGAACCGGCGCAGCGTGTCCAGCACCATCAGGCGGCGGCCCTCGGCGGCGCGCTTGAGGCCGTCGAACCACTCCGGGGCCATGATGTTGGGCAGGCTGCCGATCAGCGGCTGGATCAGCAGGCCGTCAGCCACGGCTTGCCGTTCCTCGGCGCTGAGGTGCGCCCCAAGGGCGTGCAGGCGGTGATGAATGGCGGTGGGCGGGTCTTCGGCGGGCAGGTAGATCACCGGGCCGGTGGGCAGTTCGCCCACCTCCAGCAGATCCGGCCCGCCTGCAATCTGTGCGGCCAGTTGCAGGGCCAGCATGGATTTACCGGCACCACCGGGCGACACCAGCGCCCCGACCGTACCGGCCACCATGTTGGGCAAAACGTAGTCCAGCGGTGGCGGCGCTGCTGCGAACGCCTCCAGAATATTGATAGGCTTATGGGTAGCCATTGATTGCCTCCTTTGCAGGCAGTTGGTGGTTAGGCGCTGGCGGGGTCACTACCCCCGCCCTGCGCCGCTCTGAGTTCTTCCAGGCACTCGCGCAGCGCCTCGTATTCGTCGTCGGTCAGCCAGAACTTGCGCTGACGCATCCCTTTGGCCTTCATGCGCTCGGCATATCGCGCTTGGCGTACAGCGTCAGGGCTGGCCAGCAGGTCGCCGGTCTGCTTGTCCTTTTGGTCTTTCATATCAGTCACCGAGAAACTTGCCGGGGCCGAAAGGCTTGTCTTCGCGGAACAAGGACAAGGTGCAGCCGTCAAGGTTAAGGCTGGCCATATCAGCGACTGAAAAGCGGCCAGCCTCGGCCTTGTTTGACGTATAACCAAAGCCACCGGGCAACCAATAGCCCTTGTCACTTTTGATCAGGTAGACCGACCCTGAAGCGCTTTTTTCGTATTCCATAAAACCCCCTTCTGTGCGTGAGTACTCATAGTATAACAGGCGTGAGTACCAACGCAAGCACTACATGCTGAAATCTGGCCCGCCCCTGTCCATGCCTCGCTGGCGGGGTGCCGGTGCCCGTGCCAGCTCGGCCCGCGCAAGCTGGACGCTGGGCAGACCCATGACCTTGCTGACGGTGCGCTCGATGTAATCCGCTTCGTGGCCGGGCTTGCGCTCTGCCAGCGCTGGGCTGGCCTCGGCCATGGCCTTGCCGATTTCCTCGGCACTGCGGCCCCGGCTGGCCAGCTTCTGCGCGGCGATAAAGTCGCACTTGCTGAGGTCATCACCGAAGCGCTTGACCAGCCCGGCCATCTCGCTGCGGTACTCGTCCAGCGCCGTGCGCCGGTGGCGGCTAAGCTGCCGCTCGGGCAGTTCGAGGCTGGCCAGCCTGCGGGCCTTCTCCTGCTGCCGCTGGGCCTGCTCGATCTGCTGGCCAGCCTGCTGCACCAGCGCCGGGCCAGCGGTGGCGGTCTTGCCCTTGGATTCACGCAGCAGCACCCACGGCTGATAACCGGCGCGGGTGGTGTGCTTGTCCTTGCGGTTGGTGAAGCCCGCCAAGCGGCCATAGTGGCGGCTGTCGGCGCTGGCCGGGTCGGCGTCGTACTCGCTGGCCAGCGTCCGGGCAATCTGCCCCCGAAGTTCACCGCCTGCGGCGTCGGCCACCTTGACCCATGCCTGATAGTTCTTCGGGCTGGTTTCCACTACCAGGGCAGGCTCCCGGCCCTCGGCTTTCATGTCATCCAGGTCAAACTCGCTGAGGTCGTCCACCAGCACCAGACCATGCCGCTCCTGCTCGGCGGGCCTGATATACACGTCATTGCCCTGGGCATTCATCCGCTTGAGCCATGGCGTGTTCTGGAGCACTTCGGCGGCTGACCATTCCCGGTTCATCATCTGGCCGGTGGTGGCGTCCCTGACGCCGATATCGAAGCGCTCACAGCCCATGGCCTTGAGCTGTCGGCCTATGGCCTGCAAAGTCCTGTCGTTCTTCATCGGGCCACCAAGCGATTCCCACACATTATACGAGCCGGAAGCATAAAGTGTAAAGCCTAGATCCGAAGGATGAGCCGGGCTGAATGATCGACCGAGACAGGCCCTGCGGGGCTGCACACGCGCCCCCACCCTTCGGGTAGGGGGAAAGGCCGCTAAAGCGGCTAAAAGCGCTCCAGCGTATTTCTGCGGGGTTTGGTGTGGGGTTTAGCGGGCTTTGCCCGCCTTTCCCCCTGCCGCGCAGCGGTGGGGCGGTGTGTAGCCTAGCGCAGCGAATAGACCAGCTATCCGGCCTCTGGCCGGGCATATTGGGCAAGGGCAGCAGCGCCCCACAAGGGCGCTGATAACCGCGCCTAGTGGATTATTCTTAGATAATCATGGATGGATTTTTCCAACACCCCGCCAGCCCCCGCCCCTGCTGGGTTTGCAGGTTTGGGGGCGTGACAGTTATTGCAGGGGTTCGTGACAGTTATTGCAGGGGGGCGTGACAGTTATTGCAGGGGTTCGTGACAGTTAG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqRSF1010> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqSm/1>
+    sbol:displayId "seqSm" ;
+    sbol:elements "GAACCTTGACCGAACGCAGCGGTGGTAACGGCGCAGTGGCGGTTTTCATGGCTTGTTATGACTGTTTTTTTGGGGTACAGTCTATGCCTCGGGCATCCAAGCAGCAAGCGCGTTACGCCGTGGGTCGATGTTTGATGTTATGGAGCAGCAACGATGTTACGCAGCAGGGCAGTCGCCCTAAAACAAAGTTAAACATCATGAGGGAAGCGGTGATCGCCGAAGTATCGACTCAACTATCAGAGGTAGTTGGCGTCATCGAGCGCCATCTCGAACCGACGTTGCTGGCCGTACATTTGTACGGCTCCGCAGTGGATGGCGGCCTGAAGCCACACAGTGATATTGATTTGCTGGTTACGGTGACCGTAAGGCTTGATGAAACAACGCGGCGAGCTTTGATCAACGACCTTTTGGAAACTTCGGCTTCCCCTGGAGAGAGCGAGATTCTCCGCGCTGTAGAAGTCACCATTGTTGTGCACGACGACATCATTCCGTGGCGTTATCCAGCTAAGCGCGAACTGCAATTTGGAGAATGGCAGCGCAATGACATTCTTGCAGGTATCTTCGAGCCAGCCACGATCGACATTGATCTGGCTATCTTGCTGACAAAAGCAAGAGAACATAGCGTTGCCTTGGTAGGTCCAGCGGCGGAGGAACTCTTTGATCCGGTTCCTGAACAGGATCTATTTGAGGCGCTAAATGAAACCTTAACGCTATGGAACTCGCCGCCCGACTGGGCTGGCGATGAGCGAAATGTAGTGCTTACGTTGTCCCGCATTTGGTACAGCGCAGTAACCGGCAAAATCGCGCCGAAGGATGTCGCTGCCGACTGGGCAATGGAGCGCCTGCCGGCCCAGTATCAGCCCGTCATACTTGAAGCTAGACAGGCTTATCTTGGACAAGAAGAAGATCGCTTGGCCTCGCGCGCAGATCAGTTGGAAGAATTTGTCCACTACGTGAAAGGCGAGATCACCAAGGTAGTCGGCAAATAA" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqSm> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqT5_lacO/1>
+    sbol:displayId "seqT5_lacO" ;
+    sbol:elements "TCACTGCCCGCTTTCCAGTCGGGAAACCTGTCGTGCCAGCTGCATTAATGAATCGGCCAACGCGCGGGGAGAGGCGGTTTGCGTATTGGGCGCCAGGGTGGTTTTTCTTTTCACCAGTGAGACGGGCAACAGCTGATTGCCCTTCACCGCCTGGCCCTGAGAGAGTTGCAGCAAGCGGTCCACGCTGGTTTGCCCCAGCAGGCGAAAATCCTGTTTGATGGTGGTTAACGGCGGGATATAACATGAGCTGTCTTCGGTATCGTCGTATCCCACTACCGAGATATCCGCACCAACGCGCAGCCCGGACTCGGTAATGGCGCGCATTGCGCCCAGCGCCATCTGATCGTTGGCAACCAGCATCGCAGTGGGAACGATGCCCTCATTCAGCATTTGCATGGTTTGTTGAAAACCGGACATGGCACTCCAGTCGCCTTCCCGTTCCGCTATCGGCTGAATTTGATTGCGAGTGAGATATTTATGCCAGCCAGCCAGACGCAGACGCGCCGAGACAGAACTTAATGGGCCCGCTAACAGCGCGATTTGCTGGTGACCCAATGCGACCAGATGCTCCACGCCCAGTCGCGTACCGTCTTCATGGGAGAAAATAATACTGTTGATGGGTGTCTGGTCAGAGACATCAAGAAATAACGCCGGAACATTAGTGCAGGCAGCTTCCACAGCAATGGCATCCTGGTCATCCAGCGGATAGTTAATGATCAGCCCACTGACGCGTTGCGCGAGAAGATTGTGCACCGCCGCTTTACAGGCTTCGACGCCGCTTCGTTCTACCATCGACACCACCACGCTGGCACCCAGTTGATCGGCGCGAGATTTAATCGCCGCGACAATTTGCGACGGCGCGTGCAGGGCCAGACTGGAGGTGGCAACGCCAATCAGCAACGACTGTTTGCCCGCCAGTTGTTGTGCCACGCGGTTGGGAATGTAATTCAGCTCCGCCATCGCCGCTTCCACTTTTTCCCGCGTTTTCGCAGAAACGTGGCTGGCCTGGTTCACCACGCGGGAAACGGTCTGATAAGAGACACCGGCATACTCTGCGACATCGTATAACGTTACTGGTTTCACATTCACCACCCTGAATTGACTCTCTTCCGGGCGCTATCATGCCATACCGCGAAAGGTTTTGCGCCATTCGATGGTGTCACTAGAGAAATAAATCATAAAAAATTTATTTGCTTTGTGAGCGGATAACAATTATAATAGATTCAATTGTGAGCGGATAACAATTTCACACACCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGCGGCCGCGTCGTGACTGGGAAAACCCTGGCG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqT5_lacO> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqT7_lacO/1>
+    sbol:displayId "seqT7_lacO" ;
+    sbol:elements "TCACTGCCCGCTTTCCAGTCGGGAAACCTGTCGTGCCAGCTGCATTAATGAATCGGCCAACGCGCGGGGAGAGGCGGTTTGCGTATTGGGCGCCAGGGTGGTTTTTCTTTTCACCAGTGAGACGGGCAACAGCTGATTGCCCTTCACCGCCTGGCCCTGAGAGAGTTGCAGCAAGCGGTCCACGCTGGTTTGCCCCAGCAGGCGAAAATCCTGTTTGATGGTGGTTAACGGCGGGATATAACATGAGCTGTCTTCGGTATCGTCGTATCCCACTACCGAGATATCCGCACCAACGCGCAGCCCGGACTCGGTAATGGCGCGCATTGCGCCCAGCGCCATCTGATCGTTGGCAACCAGCATCGCAGTGGGAACGATGCCCTCATTCAGCATTTGCATGGTTTGTTGAAAACCGGACATGGCACTCCAGTCGCCTTCCCGTTCCGCTATCGGCTGAATTTGATTGCGAGTGAGATATTTATGCCAGCCAGCCAGACGCAGACGCGCCGAGACAGAACTTAATGGGCCCGCTAACAGCGCGATTTGCTGGTGACCCAATGCGACCAGATGCTCCACGCCCAGTCGCGTACCGTCTTCATGGGAGAAAATAATACTGTTGATGGGTGTCTGGTCAGAGACATCAAGAAATAACGCCGGAACATTAGTGCAGGCAGCTTCCACAGCAATGGCATCCTGGTCATCCAGCGGATAGTTAATGATCAGCCCACTGACGCGTTGCGCGAGAAGATTGTGCACCGCCGCTTTACAGGCTTCGACGCCGCTTCGTTCTACCATCGACACCACCACGCTGGCACCCAGTTGATCGGCGCGAGATTTAATCGCCGCGACAATTTGCGACGGCGCGTGCAGGGCCAGACTGGAGGTGGCAACGCCAATCAGCAACGACTGTTTGCCCGCCAGTTGTTGTGCCACGCGGTTGGGAATGTAATTCAGCTCCGCCATCGCCGCTTCCACTTTTTCCCGCGTTTTCGCAGAAACGTGGCTGGCCTGGTTCACCACGCGGGAAACGGTCTGATAAGAGACACCGGCATACTCTGCGACATCGTATAACGTTACTGGTTTCACATTCACCACCCTGAATTGACTCTCTTCCGGGCGCTATCATGCCATACCGCGAAAGGTTTTGCGCCATTCGATGGAGATCGATCTCGATCCCGCGAAATTAATACGACTCACTATAGGGGAATTGTGAGCGGATAACAATTCCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGCGGCCGCGTCGTGACTGGGAAAACCCTGGCGACTAGTCTTGGACTCCTGTTGATAGATCCAGTAATGACCTCAGAACTCCATCTGGATTTGTTCAGAACGCTCGGTTGCCGCCGGGCGTTTTTTATTGGTGAGAATCCAG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqT7_lacO> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqTc/1>
+    sbol:displayId "seqTc" ;
+    sbol:elements "TTGACAGCTTATCATCGATAAACTGTAATGCGGTAGTTTATCACAGTTAAATTGCTAACGCAGTCAGGCACCGTGTATGAAATCTAACAATGCGCTCATCGTCATCCTCGGCACCGTCACCCTGGATGCTGTAGGCATAGGCTTGGTTATGCCGGTACTGCCGGGCCTCTTGCGGGATATCGTCCATTCCGACAGCATCGCCAGTCACTATGGCGTGCTGCTAGCGCTATATGCGTTGATGCAATTTCTATGCGCACCCGTTCTCGGAGCACTGTCCGACCGCTTTGGCCGCCGCCCAGTCCTGCTCGCTTCGCTACTTGGAGCCACTATCGACTACGCGATCATGGCGACCACACCCGTCCTGTGGATTCTCTACGCCGGACGCATCGTGGCCGGCATCACCGGCGCCACAGGTGCGGTTGCTGGCGCCTATATCGCCGACATCACCGATGGGGAAGATCGGGCTCGCCACTTCGGGCTCATGAGCGCTTGTTTCGGCGTGGGTATGGTGGCAGGCCCCGTGGCCGGGGGACTGTTGGGCGCCATCTCCCTGCACGCACCATTCCTTGCGGCGGCGGTGCTCAACGGCCTCAACCTACTACTGGGCTGCTTCCTAATGCAGGAGTCGCATAAGGGAGAGCGCCGTCCGATGCCCTTGAGAGCCTTCAACCCAGTCAGCTCCTTCCGGTGGGCGCGGGGCATGACCATTGTGGCCGCACTTATGACTGTCTTCTTTATCATGCAACTCGTAGGACAGGTGCCGGCAGCGCTCTGGGTCATTTTCGGCGAGGACCGCTTTCGCTGGAGCGCGACGATGATCGGCCTGTCGCTTGCGGTATTCGGAATCTTGCACGCCCTCGCTCAAGCCTTCGTCACTGGTCCCGCCACCAAACGTTTCGGCGAGAAGCAGGCCATTATCGCCGGCATGGCGGCCGACGCGCTGGGCTACGTCTTGCTGGCGTTCGCGACGCGAGGCTGGATGGCCTTCCCCATTATGATTCTTCTCGCTTCCGGCGGCATCGGGATGCCCGCGTTGCAGGCCATGCTGTCCAGGCAGGTAGATGACGACCATCAGGGACAGCTTCAAGGATCGCTCGCGGCTCTTACCAGCCTAACTTCGATCACTGGACCGCTGATCGTCACGGCGATTTATGCCGCCTCGGCGAGCACATGGAACGGGTTGGCATGGATTGTAGGCGCCGCCCTATACCTTGTCTGCCTCCCCGCGTTGCGTCGCGGTGCATGGAGCCGGGCCACCTCGACCTGA" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqTc> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqYFP/1>
+    sbol:displayId "seqYFP" ;
+    sbol:elements "AGCGGATAACAATTTCACACAGGAGGCCGCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTAGGAGGAAAAACATATGGTGAGCAAGGGCGAGGAGCTGTTCACCGGGGTGGTGCCCATCCTGGTCGAGCTGGACGGCGACGTAAACGGCCACAAGTTCAGCGTGTCCGGCGAGGGCGAGGGCGATGCCACCTACGGCAAGCTGACCCTGAAGTTCATCTGCACCACCGGCAAGCTGCCCGTGCCCTGGCCCACCCTCGTGACCACCTTCGGCTACGGCCTGCAATGCTTCGCCCGCTACCCCGACCACATGAAGCAGCACGACTTCTTCAAGTCCGCCATGCCCGAAGGCTACGTCCAGGAGCGCACCATCTTCTTCAAGGACGACGGCAACTACAAGACCCGCGCCGAGGTGAAGTTCGAGGGCGACACCCTGGTGAACCGCATCGAGCTGAAGGGCATCGACTTCAAGGAGGACGGCAACATCCTGGGGCACAAGCTGGAGTACAACTACAACAGCCACAACGTCTATATCATGGCCGACAAGCAGAAGAACGGCATCAAGGTGAACTTCAAGATCCGCCACAACATCGAGGACGGCAGCGTGCAGCTCGCCGACCACTACCAGCAGAACACCCCCATCGGCGACGGCCCCGTGCTGCTGCCCGACAACCACTACCTGAGCTACCAGTCCGCCCTGAGCAAAGACCCCAACGAGAAGCGCGATCACATGGTCCTGCTGGAGTTCGTGACCGCCGCCGGGATCACTCTCGGCATGGACGAGCTGTACAAGTAA" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqYFP> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqalkS_PalkB/1>
+    sbol:displayId "seqalkS_PalkB" ;
+    sbol:elements "TCAGATAACACCCTGACGTTCGGCTTCAATTATTGCTTGCGTGCGACTCTTTACATTAAGGATGGTAAATATTTTCCTCATATGCCACTTTATAGCATCTTCGGTGACATACATCTTTGTTGCTATTTGTTTGTTTGAGCACCCCTCTTTTACAAGTTTCAAGACACTGACCTGCTTCAGTGTCAAAAAATCACCAGCTTTATTTTCTGCGGATTTTCTAATCTCCACCATTTGCGGCAGACTAAAAGCTCCAATCGCTTGATCTAAATTAACTGCTGCGAAGACTTCACATGAAGTCGGTATTAATCTCTTAATCAAACGTATTTCATCCAGCACTGTTTGAAAGCATTGAAGCTGTTTTGCCATCTCCAATGCATAAGCAATGTTATGCTGAGCCTTCTTTAATGTGCCGCCACCTGCTTGCGCTCCGGCTAAATACAATAAGCCACGGACTTCCAATTGGCCTGCGCTAATTTTACGGGCTTGCTGAATAGCCAATAGCGCTCTGTGCGCGGCAAGATGAAAGTTCTGATCTCGGGAAAGCGCGAGTGATTGAACAAGCAGCAGGCGTGCCTTTAGGGGGGCTGAGTGCGGTCCGGAGAAAATCTTGCGATCTTCAAAGGCTTGTAACGTATTTATGTACGTTACGCCTTGAAAGAGCAAGCGTTGATAGATCTCAATTTGGCTCATAACTTCCAATCTTGGTAGATTTTTTTCAGCCGCATATGCCTTCGCCCACTCCAAAATCTCAATGGAACCATTCAGGTCATTCCTTCCAAGCCGCCAAGCTGACACAACACGGCATACGGAAAAAAACACGTCTGTCACCCCGTGATTGGCAATAAACTCTAAAATTTCGGAGAACTTTTCTTCTGAGGTGTCCAAGCGGCACAATTCATAATTTGACTCAAGCTCCAGAGCGTCCAGCATTTTCGAGGTAAACGCGGTCTCCATAATCTGCGCGCCACTGTCTGTGCGTGCTTGAGTTATAAGCTGCCTGGCCCAGCTCATTTTCCCGCTTGCTAGCGCTTGTTGCAGCTTGGCGACATACAGCCAACCGAAAGCAAAATCTTGTTTTGCAAATTTATTCACGGCTTGGGCCTGAGCCAGCACCTTCTCTAACTCTGCAAATCTATACTCACTGGCAAAAATAAAAGCCAAGCAGGTTAGCGCGGCCCCTTTCCCAACTGCGTTTGAATCCCCAAATAAACTAATCCACTTATTACACAGCTCCTCACTCAAAAGCATTTCATCATTCGTTGCTTTACCTATTGCAAACACAAGCTGCGGCCATCCTTTTTCTTGCCATTTGTTTTTTTTATCGGGCGGGGTAATTAGGTCTTTAAGTAACTTCTCTGCTCGCGCGCTTTGCTGACTGAAATACAATACCCACGCGAAACAAATAAGTACTATGGGGTTCTTGTGCAAGTCCTTCACTGGCAGCTCCGACAGCCAGTGTCTCAGCGTATCTATTTCGCCCTGACGAAATGACAAATCTAAAATTATTCCCTCACTCATGCCGACAGCCCAGCGACAGTCATTCGCCCGTAGGGCTATTCGTATTGCGTACTGGTATTCGCCTCTACGCCAATGCCAGAAAGCTGCGCGCTTAAGCAAGTAGGATCTTTTAGCAGGATTTTCAGCCCAAGCAATTCCTTGAAGAAAATCGCGCAATACTGGATGTAGTGTAAACTGCGCCGGCTCACCTTCTACATGGCGAAGTAACATGTAATTCGTGCTCAGATATTTAATACATGAGGCCGCATTGACGCATTTGAATACATAATTGTAGCCATCAGGCGTCACGACATCGAGCAATGAAGAATTTACAAGAAAAACACGATACCGCTCGGGAAGCGCCTCAAATATTTCATCATTAAAGTAATTGTCTATTTCAACTACTGTTGAAATAGACTTGGCCGGCAACTCACATTTTAACAAAAACCCGATAAGAACAGGCCACCCCTCCATTTCTTGCACCAAGGCCTCTATCTGTACCTCAGAAACTCCAAGAACAGCCTCTGCCTCCACTAACGCCACTGCCTCGTCTGCGCTAAAGGCCAAATCTTTCTCGGTGTGCTCCTGCATAGCGCCTGCAAGTTTAAGCCGCGAGAACCCTTTTATTGTATTACCTGCGACTGCAAACCTGATACTTTTTGGTGTTTCTAACATGAACTCCATAAGCGCGTGCAACAACGGCAAGCCCAAGCCCTGATTAATATTATCCAAACAAATTAGCGTTTCTATTTCGTTACTCGAGGTACTCTGCCAAAGACTGGATGCAAGGTCTCGCAAGAGCGTAGGCTTGCTCACACCCTCTCTCACATGGCTGAATGTTACCAGTTCGAACGCTTCAAGCTGCTCAATAATTTCTGCGCAGATATCAAATTCACTGTAAGAACTGGCTCTTAAAGAAATCCACACCGCAGGGCGTCCGGTTGTTCTGTGGCGTAGCCACTCGAACGCAAGAGCCACGGTTTTTCCATATCCAGGCGGGGCTCTATAAAGGCATACTCTGGGTGCAGTTCCATCCGCGATACTCAATCTGGGCCGATATATGCAGTTATGCACTTTGGCACTTACTAGAGTCGTAATTCGATCCAGCCCGATCTTGGCAACCGGGAAATCATTGTTGATGATCTTGATCTTCATGCCCATGGTTTTTCCTCCTTATAAAGTTAATCAACACCCCTTGTATTACTGTTTATGTAAGCAGACAGTTTTATTGTTCATGATGATATATTTTTATCTTGTGCAATGTAACATCAGAGATTTTGAGACACAAGACGTGGCAAAAAACATTATCCAGAACGGGAGTGCGCCTTGAGCGACACGAATTATGCAGTGATTTACGACCTGCACAGCCATACCACAGCTTCCGATGGCTGCCTGACGCCAGAAGCATTGGTGCACCGTGCAGTCGATGATAAGCTGTCAAACAGCGGATAACAATTTCACACAGGACGTGTTTTTCCAGCAGACGACGGAGCAAAAACTACCCGTAGGTGTAGTTGGCGCAAGCGTCCGATTAGCTCAGGTTTAAGATGTCGAGAGCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGCGGCCGCGTCGTGACTGGGAAAACCCTGGCG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqalkS_PalkB> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqaraC_pBAD/1>
+    sbol:displayId "seqaraC_pBAD" ;
+    sbol:elements "CAGGGATTCTGCAAACCCTATGCTACTCCGTCAAGCCGTCAATTGTCTGATTCGTTACCAATTATGACAACTTGACGGCTACATCATTCACTTTTTCTTCACAACCGGCACGGAACTCGCTCGGGCTGGCCCCGGTGCATTTTTTAAATACCCGCGAGAAATAGAGTTGATCGTCAAAACCAACATTGCGACCGACGGTGGCGATAGGCATCCGGGTGGTGCTCAAAAGCAGCTTCGCCTGGCTGATACGTTGGTCCTCGCGCCAGCTTAAGACGCTAATCCCTAACTGCTGGCGGAAAAGATGTGACAGACGCGACGGCGACAAGCAAACATGCTGTGCGACGCTGGCGATATCAAAATTGCTGTCTGCCAGGTGATCGCTGATGTACTGACAAGCCTCGCGTACCCGATTATCCATCGGTGGATGGAGCGACTCGTTAATCGCTTCCATGCGCCGCAGTAACAATTGCTCAAGCAGATTTATCGCCAGCAGCTCCGAATAGCGCCCTTCCCCTTGCCCGGCGTTAATGATTTGCCCAAACAGGTCGCTGAAATGCGGCTGGTGCGCTTCATCCGGGCGAAAGAACCCCGTATTGGCAAATATTGACGGCCAGTTAAGCCATTCATGCCAGTAGGCGCGCGGACGAAAGTAAACCCACTGGTGATACCATTCGCGAGCCTCCGGATGACGACCGTAGTGATGAATCTCTCCTGGCGGGAACAGCAAAATATCACCCGGTCGGCAAACAAATTCTCGTCCCTGATTTTTCACCACCCCCTGACCGCGAATGGTGAGATTGAGAATATAACCTTTCATTCCCAGCGGTCGGTCGATAAAAAAATCGAGATAACCGTTGGCCTCAATCGGCGTTAAACCCGCCACCAGATGGGCATTAAACGAGTATCCCGGCAGCAGGGGATCATTTTGCGCTTCAGCCATACTTTTCATACTCCCGCCATTCAGAGAAGAAACCAATTGTCCATATTGCATCAGACATTGCCGTCACTGCGTCTTTTACTGGCTCTTCTCGCTAACCAAACCGGTAACCCCGCTTATTAAAAGCATTCTGTAACAAAGCGGGACCAAAGCCATGACAAAAACGCGTAACAAAAGTGTCTATAATCACGGCAGAAAAGTCCACATTGATTATTTGCACGGCGTCACACTTTGCTATGCCATAGCATTTTTATCCATAAGATTAGCGGATCGTACCTGACGCTTTTTATCGCAACTCTCTACTGTTTCTCCCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGCGGCCGCGTCGTGACTGGGAAAACCCTGGCG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqaraC_pBAD> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqlacIq_Ptac/1>
+    sbol:displayId "seqlacIq_Ptac" ;
+    sbol:elements "TCACTGCCCGCTTTCCAGTCGGGAAACCTGTCGTGCCAGCTGCATTAATGAATCGGCCAACGCGCGGGGAGAGGCGGTTTGCGTATTGGGCGCCAGGGTGGTTTTTCTTTTCACCAGTGAGACGGGCAACAGCTGATTGCCCTTCACCGCCTGGCCCTGAGAGAGTTGCAGCAAGCGGTCCACGCTGGTTTGCCCCAGCAGGCGAAAATCCTGTTTGATGGTGGTTAACGGCGGGATATAACATGAGCTGTCTTCGGTATCGTCGTATCCCACTACCGAGATATCCGCACCAACGCGCAGCCCGGACTCGGTAATGGCGCGCATTGCGCCCAGCGCCATCTGATCGTTGGCAACCAGCATCGCAGTGGGAACGATGCCCTCATTCAGCATTTGCATGGTTTGTTGAAAACCGGACATGGCACTCCAGTCGCCTTCCCGTTCCGCTATCGGCTGAATTTGATTGCGAGTGAGATATTTATGCCAGCCAGCCAGACGCAGACGCGCCGAGACAGAACTTAATGGGCCCGCTAACAGCGCGATTTGCTGGTGACCCAATGCGACCAGATGCTCCACGCCCAGTCGCGTACCGTCTTCATGGGAGAAAATAATACTGTTGATGGGTGTCTGGTCAGAGACATCAAGAAATAACGCCGGAACATTAGTGCAGGCAGCTTCCACAGCAATGGCATCCTGGTCATCCAGCGGATAGTTAATGATCAGCCCACTGACGCGTTGCGCGAGAAGATTGTGCACCGCCGCTTTACAGGCTTCGACGCCGCTTCGTTCTACCATCGACACCACCACGCTGGCACCCAGTTGATCGGCGCGAGATTTAATCGCCGCGACAATTTGCGACGGCGCGTGCAGGGCCAGACTGGAGGTGGCAACGCCAATCAGCAACGACTGTTTGCCCGCCAGTTGTTGTGCCACGCGGTTGGGAATGTAATTCAGCTCCGCCATCGCCGCTTCCACTTTTTCCCGCGTTTTCGCAGAAACGTGGCTGGCCTGGTTCACCACGCGGGAAACGGTCTGATAAGAGACACCGGCATACTCTGCGACATCGTATAACGTTACTGGTTTCACATTCACCACCCTGAATTGACTCTCTTCCGGGCGCTATCATGCCATACCGCGAAAGGTTTTGCGCCATTCGATGGTGTCACTAGAGAAATGAGCTGTTGACAATTAATCATCGGCTCGTATAATGTGTGGAATTGTGAGCGGATAACAATTTCACACCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGCGGCCGCGTCGTGACTGGGAAAACCCTGGCG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqlacIq_Ptac> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqlacIq_Ptrc/1>
+    sbol:displayId "seqlacIq_Ptrc" ;
+    sbol:elements "TTGACACCATCGAATGGTGCAAAACCTTTCGCGGTATGGCATGATAGCGCCCGGAAGAGAGTCAATTCAGGGTGGTGAATGTGAAACCAGTAACGTTATACGATGTCGCAGAGTATGCCGGTGTCTCTTATCAGACCGTTTCCCGCGTGGTGAACCAGGCCAGCCACGTTTCTGCGAAAACGCGGGAAAAAGTGGAAGCGGCGATGGCGGAGCTGAATTACATTCCCAACCGCGTGGCACAACAACTGGCGGGCAAACAGTCGTTGCTGATTGGCGTTGCCACCTCCAGTCTGGCCCTGCACGCGCCGTCGCAAATTGTCGCGGCGATTAAATCTCGCGCCGATCAACTGGGTGCCAGCGTGGTGGTGTCGATGGTAGAACGAAGCGGCGTCGAAGCCTGTAAAGCGGCGGTGCACAATCTTCTCGCGCAACGCGTCAGTGGGCTGATCATTAACTATCCGCTGGATGACCAGGATGCCATTGCTGTGGAAGCTGCCTGCACTAATGTTCCGGCGTTATTTCTTGATGTCTCTGACCAGACACCCATCAACAGTATTATTTTCTCCCATGAAGACGGTACGCGACTGGGCGTGGAGCATCTGGTCGCATTGGGTCACCAGCAAATCGCGCTGTTAGCGGGCCCATTAAGTTCTGTCTCGGCGCGTCTGCGTCTGGCTGGCTGGCATAAATATCTCACTCGCAATCAAATTCAGCCGATAGCGGAACGGGAAGGCGACTGGAGTGCCATGTCCGGTTTTCAACAAACCATGCAAATGCTGAATGAGGGCATCGTTCCCACTGCGATGCTGGTTGCCAACGATCAGATGGCGCTGGGCGCAATGCGCGCCATTACCGAGTCCGGGCTGCGCGTTGGTGCGGATATCTCGGTAGTGGGATACGACGATACCGAAGACAGCTCATGTTATATCCCGCCGTTAACCACCATCAAACAGGATTTTCGCCTGCTGGGGCAAACCAGCGTGGACCGCTTGCTGCAACTCTCTCAGGGCCAGGCGGTGAAGGGCAATCAGCTGTTGCCCGTCTCACTGGTGAAAAGAAAAACCACCCTGGCGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTAAGTTAGCGCGAATTGATCTGGTTTGACAGCTTATCATCGACTGCACGGTGCACCAATGCTTCTGGCGTCAGGCAGCCATCGGAAGCTGTGGTATGGCTGTGCAGGTCGTAAATCACTGCATAATTCGTGTCGCTCAAGGCGCACTCCCGTTCTGGATAATGTTTTTTGCGCCGACATCATAACGGTTCTGGCAAATATTCTGAAATGAGCTGTTGACAATTAATCATCCGGCTCGTATAATGTGTGGAATTGTGAGCGGATAACAATTTCACACCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGCGGCCGCGTCGTGACTGGGAAAACCCTGGCG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqlacIq_Ptrc> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqlacZ/1>
+    sbol:displayId "seqlacZ" ;
+    sbol:elements "AGCGGATAACAATTTCACACAGGAGGCCGCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTAGGAGGAAAAACATATGACCATGATTACGGATTCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGAATGGCGCTTTGCCTGGTTTCCGGCACCAGAAGCGGTGCCGGAAAGCTGGCTGGAGTGCGATCTTCCTGAGGCCGATACTGTCGTCGTCCCCTCAAACTGGCAGATGCACGGTTACGATGCGCCCATCTACACCAACGTAACCTATCCCATTACGGTCAATCCGCCGTTTGTTCCCACGGAGAATCCGACGGGTTGTTACTCGCTCACATTTAATGTTGATGAAAGCTGGCTACAGGAAGGCCAGACGCGAATTATTTTTGATGGCGTTAACTCGGCGTTTCATCTGTGGTGCAACGGGCGCTGGGTCGGTTACGGCCAGGACAGTCGTTTGCCGTCTGAATTTGACCTGAGCGCATTTTTACGCGCCGGAGAAAACCGCCTCGCGGTGATGGTGCTGCGTTGGAGTGACGGCAGTTATCTGGAAGATCAGGATATGTGGCGGATGAGCGGCATTTTCCGTGACGTGTCGTTGCTGCATAAACCGACTACACAAATCAGCGATTTCCATGTTGCCACTCGCTTTAATGATGATTTCAGCCGCGCTGTACTGGAGGCTGAAGTTCAGATGTGCGGCGAGTTGCGTGACTACCTACGGGTAACAGTTTCTTTATGGCAGGGTGAAACGCAGGTCGCCAGCGGCACCGCGCCTTTCGGCGGTGAAATTATCGATGAGCGTGGTGGTTATGCCGATCGCGTCACACTACGTCTGAACGTCGAAAACCCGAAACTGTGGAGCGCCGAAATCCCGAATCTCTATCGTGCGGTGGTTGAACTGCACACCGCCGACGGCACGCTGATTGAAGCAGAAGCCTGCGATGTCGGTTTCCGCGAGGTGCGGATTGAAAATGGTCTGCTGCTGCTGAACGGCAAGCCGTTGCTGATTCGAGGCGTTAACCGTCACGAGCATCATCCTCTGCATGGTCAGGTCATGGATGAGCAGACGATGGTGCAGGATATCCTGCTGATGAAGCAGAACAACTTTAACGCCGTGCGCTGTTCGCATTATCCGAACCATCCGCTGTGGTACACGCTGTGCGACCGCTACGGCCTGTATGTGGTGGATGAAGCCAATATTGAAACCCACGGCATGGTGCCAATGAATCGTCTGACCGATGATCCGCGCTGGCTACCGGCGATGAGCGAACGCGTAACGCGAATGGTGCAGCGCGATCGTAATCACCCGAGTGTGATCATCTGGTCGCTGGGGAATGAATCAGGCCACGGCGCTAATCACGACGCGCTGTATCGCTGGATCAAATCTGTCGATCCTTCCCGCCCGGTGCAGTATGAAGGCGGCGGAGCCGACACCACGGCCACCGATATTATTTGCCCGATGTACGCGCGCGTGGATGAAGACCAGCCCTTCCCGGCTGTGCCGAAATGGTCCATCAAAAAATGGCTTTCGCTACCTGGAGAGACGCGCCCGCTGATCCTTTGCGAATACGCCCACGCGATGGGTAACAGTCTTGGCGGTTTCGCTAAATACTGGCAGGCGTTTCGTCAGTATCCCCGTTTACAGGGCGGCTTCGTCTGGGACTGGGTGGATCAGTCGCTGATTAAATATGATGAAAACGGCAACCCGTGGTCGGCTTACGGCGGTGATTTTGGCGATACGCCGAACGATCGCCAGTTCTGTATGAACGGTCTGGTCTTTGCCGACCGCACGCCGCATCCAGCGCTGACGGAAGCAAAACACCAGCAGCAGTTTTTCCAGTTCCGTTTATCCGGGCAAACCATCGAAGTGACCAGCGAATACCTGTTCCGTCATAGCGATAACGAGCTGCTGCACTGGATGGTGGCGCTGGATGGTAAGCCGCTGGCAAGCGGTGAAGTGCCTCTGGATGTCGCTCCACAAGGTAAACAGTTGATTGAACTGCCTGAACTACCGCAGCCGGAGAGCGCCGGGCAACTCTGGCTCACAGTACGCGTAGTGCAACCGAACGCGACCGCATGGTCAGAAGCCGGGCACATCAGCGCCTGGCAGCAGTGGCGTCTGGCGGAAAACCTCAGTGTGACGCTCCCCGCCGCGTCCCACGCCATCCCGCATCTGACCACCAGCGAAATGGATTTTTGCATCGAGCTGGGTAATAAGCGTTGGCAATTTAACCGCCAGTCAGGCTTTCTTTCACAGATGTGGATTGGCGATAAAAAACAACTGCTGACGCCGCTGCGCGATCAGTTCACCCGTGCACCGCTGGATAACGACATTGGCGTAAGTGAAGCGACCCGCATTGACCCTAACGCCTGGGTCGAACGCTGGAAGGCGGCGGGCCATTACCAGGCCGAAGCAGCGTTGTTGCAGTGCACGGCAGATACACTTGCTGATGCGGTGCTGATTACGACCGCTCACGCGTGGCAGCATCAGGGGAAAACCTTATTTATCAGCCGGAAAACCTACCGGATTGATGGTAGTGGTCAAATGGCGATTACCGTTGATGTTGAAGTGGCGAGCGATACACCGCATCCGGCGCGGATTGGCCTGAACTGCCAGCTGGCGCAGGTAGCAGAGCGGGTAAACTGGCTCGGATTAGGGCCGCAAGAAAACTATCCCGACCGCCTTACTGCCGCCTGTTTTGACCGCTGGGATCTGCCATTGTCAGACATGTATACCCCGTACGTCTTCCCGAGCGAAAACGGTCTGCGCTGCGGGACGCGCGAATTGAATTATGGCCCACACCAGTGGCGCGGCGACTTCCAGTTCAACATCAGCCGCTACAGTCAACAGCAACTGATGGAAACCAGCCATCGCCATCTGCTGCACGCGGAAGAAGGCACATGGCTGAATATCGACGGTTTCCATATGGGGATTGGTGGCGACGACTCCTGGAGCCCGTCAGTATCGGCGGAGTTCCAGCTGAGCGCCGGTCGCTACCATTACCAGTTGGTCTGGTGTCAAAAATAATAATAACCGGGCAGGCCATGTCTGCCCGTATTTCGCGTAAGGAAATCCATTATGTACTATTTAAAATCAAGCTCCTTGCAGGCC" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqlacZ> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqlacZ_pUC18/1>
+    sbol:displayId "seqlacZ_pUC18" ;
+    sbol:elements "GAAGCGGAAGAGCGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATGTTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGGCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGAATGGCGCCTGATGCGGTATTTTCTCCTTACGCATCTGTGCGGTATTTCACACCGCATATGGTGCACTCTCAGTACAATCTGCTCTGATGCCGCATAGTTAAGCCAGCCCCGACACCCGCCAACACCCGCTGAACTAGTCTTGGACTCCTGTTGATAGATCCAGTAATGACCTCAGAACTCCATCTGGATTTGTTCAGAACGCTCGGTTGCCGCCGGGCGTTTTTTATTGGTGAGAATCCAG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqlacZ_pUC18> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqlacZ_pUC19/1>
+    sbol:displayId "seqlacZ_pUC19" ;
+    sbol:elements "GAAGCGGAAGAGCGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATGTTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGCCAAGCTTGCATGCCTGCAGGTCGACTCTAGAGGATCCCCGGGTACCGAGCTCGAATTCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGAATGGCGCCTGATGCGGTATTTTCTCCTTACGCATCTGTGCGGTATTTCACACCGCATATGGTGCACTCTCAGTACAATCTGCTCTGATGCCGCATAGTTAAGCCAGCCCCGACACCCGCCAACACCCGCTGAACTAGTCTTGGACTCCTGTTGATAGATCCAGTAATGACCTCAGAACTCCATCTGGATTTGTTCAGAACGCTCGGTTGCCGCCGGGCGTTTTTTATTGGTGAGAATCCAG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqlacZ_pUC19> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqlacZ_pUC19_I_SceI/1>
+    sbol:displayId "seqlacZ_pUC19_I_SceI" ;
+    sbol:elements "TCTTCGCCCACCCCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATGTTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGCCGGATTACCCTGTTATCCCTAGAAGCTTGCATGCCTGCAGGTCGACTCTAGAGGATCCCCGGGTACCGAGCTCGAATTCAGATTACCCTGTTATCCCTATACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGAATGGGGCTCGATCCCCTCGCGAGTTGGTTCAGCTGCTGCCTGA" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqlacZ_pUC19_I_SceI> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqlacZ_translational/1>
+    sbol:displayId "seqlacZ_translational" ;
+    sbol:elements "AGCGGATAACAATTTCACACAGGAGGCCGCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGACGGATTCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGAATGGCGCTTTGCCTGGTTTCCGGCACCAGAAGCGGTGCCGGAAAGCTGGCTGGAGTGCGATCTTCCTGAGGCCGATACTGTCGTCGTCCCCTCAAACTGGCAGATGCACGGTTACGATGCGCCCATCTACACCAACGTAACCTATCCCATTACGGTCAATCCGCCGTTTGTTCCCACGGAGAATCCGACGGGTTGTTACTCGCTCACATTTAATGTTGATGAAAGCTGGCTACAGGAAGGCCAGACGCGAATTATTTTTGATGGCGTTAACTCGGCGTTTCATCTGTGGTGCAACGGGCGCTGGGTCGGTTACGGCCAGGACAGTCGTTTGCCGTCTGAATTTGACCTGAGCGCATTTTTACGCGCCGGAGAAAACCGCCTCGCGGTGATGGTGCTGCGTTGGAGTGACGGCAGTTATCTGGAAGATCAGGATATGTGGCGGATGAGCGGCATTTTCCGTGACGTGTCGTTGCTGCATAAACCGACTACACAAATCAGCGATTTCCATGTTGCCACTCGCTTTAATGATGATTTCAGCCGCGCTGTACTGGAGGCTGAAGTTCAGATGTGCGGCGAGTTGCGTGACTACCTACGGGTAACAGTTTCTTTATGGCAGGGTGAAACGCAGGTCGCCAGCGGCACCGCGCCTTTCGGCGGTGAAATTATCGATGAGCGTGGTGGTTATGCCGATCGCGTCACACTACGTCTGAACGTCGAAAACCCGAAACTGTGGAGCGCCGAAATCCCGAATCTCTATCGTGCGGTGGTTGAACTGCACACCGCCGACGGCACGCTGATTGAAGCAGAAGCCTGCGATGTCGGTTTCCGCGAGGTGCGGATTGAAAATGGTCTGCTGCTGCTGAACGGCAAGCCGTTGCTGATTCGAGGCGTTAACCGTCACGAGCATCATCCTCTGCATGGTCAGGTCATGGATGAGCAGACGATGGTGCAGGATATCCTGCTGATGAAGCAGAACAACTTTAACGCCGTGCGCTGTTCGCATTATCCGAACCATCCGCTGTGGTACACGCTGTGCGACCGCTACGGCCTGTATGTGGTGGATGAAGCCAATATTGAAACCCACGGCATGGTGCCAATGAATCGTCTGACCGATGATCCGCGCTGGCTACCGGCGATGAGCGAACGCGTAACGCGAATGGTGCAGCGCGATCGTAATCACCCGAGTGTGATCATCTGGTCGCTGGGGAATGAATCAGGCCACGGCGCTAATCACGACGCGCTGTATCGCTGGATCAAATCTGTCGATCCTTCCCGCCCGGTGCAGTATGAAGGCGGCGGAGCCGACACCACGGCCACCGATATTATTTGCCCGATGTACGCGCGCGTGGATGAAGACCAGCCCTTCCCGGCTGTGCCGAAATGGTCCATCAAAAAATGGCTTTCGCTACCTGGAGAGACGCGCCCGCTGATCCTTTGCGAATACGCCCACGCGATGGGTAACAGTCTTGGCGGTTTCGCTAAATACTGGCAGGCGTTTCGTCAGTATCCCCGTTTACAGGGCGGCTTCGTCTGGGACTGGGTGGATCAGTCGCTGATTAAATATGATGAAAACGGCAACCCGTGGTCGGCTTACGGCGGTGATTTTGGCGATACGCCGAACGATCGCCAGTTCTGTATGAACGGTCTGGTCTTTGCCGACCGCACGCCGCATCCAGCGCTGACGGAAGCAAAACACCAGCAGCAGTTTTTCCAGTTCCGTTTATCCGGGCAAACCATCGAAGTGACCAGCGAATACCTGTTCCGTCATAGCGATAACGAGCTGCTGCACTGGATGGTGGCGCTGGATGGTAAGCCGCTGGCAAGCGGTGAAGTGCCTCTGGATGTCGCTCCACAAGGTAAACAGTTGATTGAACTGCCTGAACTACCGCAGCCGGAGAGCGCCGGGCAACTCTGGCTCACAGTACGCGTAGTGCAACCGAACGCGACCGCATGGTCAGAAGCCGGGCACATCAGCGCCTGGCAGCAGTGGCGTCTGGCGGAAAACCTCAGTGTGACGCTCCCCGCCGCGTCCCACGCCATCCCGCATCTGACCACCAGCGAAATGGATTTTTGCATCGAGCTGGGTAATAAGCGTTGGCAATTTAACCGCCAGTCAGGCTTTCTTTCACAGATGTGGATTGGCGATAAAAAACAACTGCTGACGCCGCTGCGCGATCAGTTCACCCGTGCACCGCTGGATAACGACATTGGCGTAAGTGAAGCGACCCGCATTGACCCTAACGCCTGGGTCGAACGCTGGAAGGCGGCGGGCCATTACCAGGCCGAAGCAGCGTTGTTGCAGTGCACGGCAGATACACTTGCTGATGCGGTGCTGATTACGACCGCTCACGCGTGGCAGCATCAGGGGAAAACCTTATTTATCAGCCGGAAAACCTACCGGATTGATGGTAGTGGTCAAATGGCGATTACCGTTGATGTTGAAGTGGCGAGCGATACACCGCATCCGGCGCGGATTGGCCTGAACTGCCAGCTGGCGCAGGTAGCAGAGCGGGTAAACTGGCTCGGATTAGGGCCGCAAGAAAACTATCCCGACCGCCTTACTGCCGCCTGTTTTGACCGCTGGGATCTGCCATTGTCAGACATGTATACCCCGTACGTCTTCCCGAGCGAAAACGGTCTGCGCTGCGGGACGCGCGAATTGAATTATGGCCCACACCAGTGGCGCGGCGACTTCCAGTTCAACATCAGCCGCTACAGTCAACAGCAACTGATGGAAACCAGCCATCGCCATCTGCTGCACGCGGAAGAAGGCACATGGCTGAATATCGACGGTTTCCATATGGGGATTGGTGGCGACGACTCCTGGAGCCCGTCAGTATCGGCGGAGTTCCAGCTGAGCGCCGGTCGCTACCATTACCAGTTGGTCTGGTGTCAAAAATAATAATAACCGGGCAGGCCATGTCTGCCCGTATTTCGCGTAAGGAAATCCATTATGTACTATTTAAAATCAAGCTCCTTGCAGGCC" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqlacZ_translational> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqluxCDABE/1>
+    sbol:displayId "seqluxCDABE" ;
+    sbol:elements "AGCGGATAACAATTTCACACAGGAGGCCGCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTAGGAGGAAAAACATATGACTAAAAAAATTTCATTCATTATTAACGGCCAGGTTGAAATCTTTCCCGAAAGTGATGATTTAGTGCAATCCATTAATTTTGGTGATAATAGTGTTTACCTGCCAATATTGAATGACTCTCATGTAAAAAACATTATTGATTGTAATGGAAATAACGAATTACGGTTGCATAACATTGTCAATTTTCTCTATACGGTAGGGCAAAGATGGAAAAATGAAGAATACTCAAGACGCAGGACATACATTCGTGACTTAAAAAAATATATGGGATATTCAGAAGAAATGGCTAAGCTAGAGGCCAATTGGATATCTATGATTTTATGTTCTAAAGGCGGCCTTTATGATGTTGTAGAAAATGAACTTGGTTCTCGCCATATCATGGATGAATGGCTACCTCAGGATGAAAGTTATGTTCGGGCTTTTCCGAAAGGTAAATCTGTACATCTGTTGGCAGGTAATGTTCCATTATCTGGGATCATGTCTATATTACGCGCAATTTTAACTAAGAATCAGTGTATTATAAAAACATCGTCAACCGATCCTTTTACCGCTAATGCATTAGCGTTAAGTTTTATTGATGTAGACCCTAATCATCCGATAACGCGCTCTTTATCTGTTATATATTGGCCCCACCAAGGTGATACATCACTCGCAAAAGAAATTATGCGACATGCGGATGTTATTGTCGCTTGGGGAGGGCCAGATGCGATTAATTGGGCGGTAGAGCACGCGCCATCTTATGCTGATGTGATTAAATTTGGTTCTAAAAAGAGTCTTTGCATTATCGATAATCCTGTTGATTTGACGTCCGCAGCGACAGGTGCGGCTCATGATGTTTGTTTTTACGATCAGCGAGCTTGTTTTTCTGCCCAAAACATATATTACATGGGAAATCATTATGAGGAATTTAAGTTAGCGTTGATAGAAAAACTTAATCTATATGCGCATATATTACCGAATGCCAAAAAAGATTTTGATGAAAAGGCGGCCTATTCTTTAGTTCAAAAAGAAAGCCTGTTTGCTGGATTAAAAGTAGAGGTGGATATTCATCAACGTTGGATGATTATTGAGTCAAATGCAGGTGTGGAATTTAATCAACCACTTGGCAGATGTGTGTACCTTCATCACGTCGATAATATTGAGCAAATATTGCCTTATGTTCAAAAAAATAAGACGCAAACCATATCTATTTTTCCTTGGGAGTCATCATTCAAATATCGAGATGCGTTAGCATTAAAAGGTGCGGAAAGGATTGTAGAAGCAGGAATGAATAACATATTTCGAGTTGGTGGATCTCATGACGGAATGAGACCGTTGCAACGATTAGTGACATATATTTCTCATGAAAGGCCATCTAACTATACGGCTAAGGATGTTGCGGTTGAAATAGAACAGACTCGATTCCTGGAAGAAGATAAGTTCCTTGTATTTGTCCCATAATAGGTAAAAGTATGGAAAATGAATCAAAATATAAAACCATCGACCACGTTATTTGTGTTGAAGGAAATAAAAAAATTCATGTTTGGGAAACGCTGCCAGAAGAAAACAGCCCAAAGAGAAAGAATGCCATTATTATTGCGTCTGGTTTTGCCCGCAGGATGGATCATTTTGCTGGTCTGGCGGAATATTTATCGCGGAATGGATTTCATGTGATCCGCTATGATTCGCTTCACCACGTTGGATTGAGTTCAGGGACAATTGATGAATTTACAATGTCTATAGGAAAGCAGAGCTTGTTAGCAGTGGTTGATTGGTTAACTACACGAAAAATAAATAACTTCGGTATGTTGGCTTCCAGCTTATCTGCGCGGATAGCTTATGCAAGCCTATCTGAAATCAATGCTTCGTTTTTAATCACCGCAGTCGGTGTTGTTAACTTAAGATATTCTCTTGAAAGAGCTTTAGGGTTTGATTATCTCAGTCTACCCATTAATGAATTGCCGGATAATCTGGATTTTGAAGGCCATAAATTGGGTGCTGAAGTCTTTGCGAGAGATTGTCTTGATTTTGGTTGGGAAGATTTAGCTTCTACAATTAATAACATGATGTATCTTGATATACCGTTTATTGCTTTTACTGCAAATAACGATAATTGGGTCAAGCAAGATGAAGTTATCACATTGTTATCAAATATTCGTAGTAATCGATGCAAGATATATTCTTTGTTAGGAAGTTCGCATGACTTGAGTGAAAATTTAGTGGTCCTGCGCAATTTTTATCAATCGGTTACGAAAGCCGCTATCGCGATGGATAATGATCATCTGGATATTGATGTTGATATTACTGAACCGTCATTTGAACATTTAACTATTGCGACAGTCAATGAACGCCGAATGAGAATTGAGATTGAAAATCAAGCAATTTCTCTGTCTTAAAATCTATTGAGATATTCTATCACTCAAATAGCAATATAAGGACTCTCTATGAAATTTGGAAACTTTTTGCTTACATACCAACCTCCCCAATTTTCTCAAACAGAGGTAATGAAACGTTTGGTTAAATTAGGTCGCATCTCTGAGGAGTGTGGTTTTGATACCGTATGGTTACTGGAGCATCATTTCACGGAGTTTGGTTTGCTTGGTAACCCTTATGTCGCTGCTGCATATTTACTTGGCGCGACTAAAAAATTGAATGTAGGAACTGCCGCTATTGTTCTTCCCACAGCCCATCCAGTACGCCAACTTGAAGATGTGAATTTATTGGATCAAATGTCAAAAGGACGATTTCGGTTTGGTATTTGCCGAGGGCTTTACAACAAGGACTTTCGCGTATTCGGCACAGATATGAATAACAGTCGCGCCTTAGCGGAATGCTGGTACGGGCTGATAAAGAATGGCATGACAGAGGGATATATGGAAGCTGATAATGAACATATCAAGTTCCATAAGGTAAAAGTAAACCCCGCGGCGTATAGCAGAGGTGGCGCACCGGTTTATGTGGTGGCTGAATCAGCTTCGACGACTGAGTGGGCTGCTCAATTTGGCCTACCGATGATATTAAGTTGGATTATAAATACTAACGAAAAGAAAGCACAACTTGAGCTTTATAATGAAGTGGCTCAAGAATATGGGCACGATATTCATAATATCGACCATTGCTTATCATATATAACATCTGTAGATCATGACTCAATTAAAGCGAAAGAGATTTGCCGGAAATTTCTGGGGCATTGGTATGATTCTTATGTGAATGCTACGACTATTTTTGATGATTCAGACCAAACAAGAGGTTATGATTTCAATAAAGGGCAGTGGCGTGACTTTGTATTAAAAGGACATAAAGATACTAATCGCCGTATTGATTACAGTTACGAAATCAATCCCGTGGGAACGCCGCAGGAATGTATTGACATAATTCAAAAAGACATTGATGCTACAGGAATATCAAATATTTGTTGTGGATTTGAAGCTAATGGAACAGTAGACGAAATTATTGCTTCCATGAAGCTCTTCCAGTCTGATGTCATGCCATTTCTTAAAGAAAAACAACGTTCGCTATTATATTAGCTAAGGAGAAAGAAATGAAATTTGGATTGTTCTTCCTTAACTTCATCAATTCAACAACTGTTCAAGAACAAAGTATAGTTCGTATGCAGGAAATAACGGAGTATGTTGATAAGTTGAATTTTGAACAGATTTTAGTGTATGAAAATCATTTTTCAGATAATGGTGTTGTCGGCGCTCCTCTGACTGTTTCTGGTTTTCTGCTCGGTTTAACAGAGAAAATTAAAATTGGTTCATTAAATCACATCATTACAACTCATCATCCTGTCGCCATAGCGGAGGAAGCGTGCTTATTGGATCAGTTAAGTGAAGGGAGATTTATTTTAGGGTTTAGTGATTGCGAAAAAAAAGATGAAATGCATTTTTTTAATCGCCCGGTTGAATATCAACAGCAACTATTTGAAGAGTGTTATGAAATCATTAACGATGCTTTAACAACAGGCTATTGTAATCCAGATAACGATTTTTATAGCTTCCCTAAAATATCTGTAAATCCCCATGCTTATACGCCAGGCGGACCTCGGAAATATGTAACAGCAACCAGTCATCATATTGTTGAGTGGGCGGCCAAAAAAGGTATTCCTCTCATCTTTAAGTGGGATGATTCTAATGATGTTAGATATGAATATGCTGAAAGATATAAAGCCGTTGCGGATAAATATGACGTTGACCTATCAGAGATAGACCATCAGTTAATGATATTAGTTAACTATAACGAAGATAGTAATAAAGCTAAACAAGAGACGCGTGCATTTATTAGTGATTATGTTCTTGAAATGCACCCTAATGAAAATTTCGAAAATAAACTTGAAGAAATAATTGCAGAAAACGCTGTCGGAAATTATACGGAGTGTATAACTGCGGCTAAGTTGGCAATTGAAAAGTGTGGTGCGAAAAGTGTATTGCTGTCCTTTGAACCAATGAATGATTTGATGAGCCAAAAAAATGTAATCAATATTGTTGATGATAATATTAAGAAGTACCACATGGAATATACCTAATAGATTTCGAGTTGCAGCGAGGCGGCAAGTGAACGAATCCCCAGGAGCATAGATAACTATGTGACTGGGGTGAGTGAAAGCAGCCAACAAAGCAGCAGCTTGAAAGATGAAGGGTATAAAAGAGTATGACAGCAGTGCTGCCATACTTTCTAATATTATCTTGAGGAGTAAAACAGGTATGACTTCATATGTTGATAAACAAGAAATTACAGCAAGCTCAGAAATTGATGATTTGATTTTTTCGAGCGATCCATTAGTGTGGTCTTACGACGAGCAGGAAAAAATCAGAAAGAAACTTGTGCTTGATGCATTTCGTAATCATTATAAACATTGTCGAGAATATCGTCACTACTGTCAGGCACACAAAGTAGATGACAATATTACGGAAATTGATGACATACCTGTATTCCCAACATCGGTTTTTAAGTTTACTCGCTTATTAACTTCTCAGGAAAACGAGATTGAAAGTTGGTTTACCAGTAGCGGCACGAATGGTTTAAAAAGTCAGGTGGCGCGTGACAGATTAAGTATTGAGAGACTCTTAGGCTCTGTGAGTTATGGCATGAAATATGTTGGTAGTTGGTTTGATCATCAAATAGAATTAGTCAATTTGGGACCAGATAGATTTAATGCTCATAATATTTGGTTTAAATATGTTATGAGTTTGGTGGAATTGTTATATCCTACGACATTTACCGTAACAGAAGAACGAATAGATTTTGTTAAAACATTGAATAGTCTTGAACGAATAAAAAATCAAGGGAAAGATCTTTGTCTTATTGGTTCGCCATACTTTATTTATTTACTCTGCCATTATATGAAAGATAAAAAAATCTCATTTTCTGGAGATAAAAGCCTTTATATCATAACCGGAGGCGGCTGGAAAAGTTACGAAAAAGAATCTCTGAAACGTGATGATTTCAATCATCTTTTATTTGATACTTTCAATCTCAGTGATATTAGTCAGATCCGAGATATATTTAATCAAGTTGAACTCAACACTTGTTTCTTTGAGGATGAAATGCAGCGTAAACATGTTCCGCCGTGGGTATATGCGCGAGCGCTTGATCCTGAAACGTTGAAACCTGTACCTGATGGAACGCCGGGGTTGATGAGTTATATGGATGCGTCAGCAACCAGTTATCCAGCATTTATTGTTACCGATGATGTCGGGATAATTAGCAGAGAATATGGTAAGTATCCCGGCGTGCTCGTTGAAATTTTACGTCGCGTCAATACGAGGACGCAGAAAGGGTGTGCTTTGAGCTTAACCGAAGCGTTTGATAGTTGA" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqluxCDABE> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqmCherry/1>
+    sbol:displayId "seqmCherry" ;
+    sbol:elements "AGCGGATAACAATTTCACACAGGAGGCCGCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTAGGAGGAAAAACATATGGTGAGCAAGGGCGAGGAGGATAACATGGCCATCATCAAGGAGTTCATGCGCTTCAAGGTGCACATGGAGGGCTCCGTGAACGGCCACGAGTTCGAGATCGAGGGCGAGGGCGAGGGCCGCCCCTACGAGGGCACCCAGACCGCCAAGCTGAAGGTGACCAAGGGTGGCCCCCTGCCCTTCGCCTGGGACATCCTGTCCCCTCAGTTCATGTACGGCTCCAAGGCCTACGTGAAGCACCCCGCCGACATCCCCGACTACTTGAAGCTGTCCTTCCCCGAGGGCTTCAAGTGGGAGCGCGTGATGAACTTCGAGGACGGCGGCGTGGTGACCGTGACCCAGGACTCCTCCCTGCAAGACGGCGAGTTCATCTACAAGGTGAAGCTGCGCGGCACCAACTTCCCCTCCGACGGCCCCGTAATGCAGAAGAAGACCATGGGCTGGGAGGCCTCCTCCGAGCGGATGTACCCCGAGGACGGCGCCCTGAAGGGCGAGATCAAGCAGAGGCTGAAGCTGAAGGACGGCGGCCACTACGACGCTGAGGTCAAGACCACCTACAAGGCCAAGAAGCCCGTGCAGCTGCCCGGCGCCTACAACGTCAACATCAAGTTGGACATCACCTCCCACAACGAGGACTACACCATCGTGGAACAGTACGAACGCGCCGAGGGCCGCCACTCCACCGGCGGCATGGACGAGCTGTACAAGTAA" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqmCherry> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqmsfGFP/1>
+    sbol:displayId "seqmsfGFP" ;
+    sbol:elements "AGCGGATAACAATTTCACACAGGAGGCCGCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTAGGAGGAAAAACATAtgcgtAAAGGTGAAGAACTGTTCACCGGTGTTGTTCCGATCCTGGTTGAACTGGATGGTGATGTTAACGGCCACAAATTCTCTGTTCGTGGTGAAGGTGAAGGTGATGCAACCAACGGTAAACTGACCCTGAAATTCATCTGCACTACCGGTAAACTGCCGGTTCCATGGCCGACTCTGGTGACTACCCTGACCTATGGTGTTCAGTGTTTTTCTCGTTACCCGGATCACATGAAGCAGCATGATTTCTTCAAATCTGCAATGCCGGAAGGTTATGTACAGGAGCGCACCATTTCTTTCAAAGACGATGGCACCTACAAAACCCGTGCAGAGGTTAAATTTGAAGGTGATACTCTGGTGAACCGTATTGAACTGAAAGGCATTGATTTCAAAGAGGACGGCAACATCCTGGGCCACAAACTGGAATATAACTTCAACTCCCATAACGTTTACATCACCGCAGACAAACAGAAGAACGGTATCAAAGCTAACTTCAAAATTCGCCATAACGTTGAAGACGGTAGCGTACAGCTGGCGGACCACTACCAGCAGAACACTCCGATCGGTGATGGTCCGGTTCTGCTGCCGGATAACCACTACCTGTCCACCCAGTCTAAACTGTCCAAAGACCCGAACGAAAAGCGCGACCACATGGTGCTGCTGGAGTTCGTTACTGCcGCAGGTATCACGCACGGCATGGATGAACTCTACAAATAA" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqmsfGFP> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqp15A/1>
+    sbol:displayId "seqp15A" ;
+    sbol:elements "CTAGAAATATTTTATCTGATTAATAAGATGATCTTCTTGAGATCGTTTTGGTCTGCGCGTAATCTCTTGCTCTGAAAACGAAAAAACCGCCTTGCAGGGCGGTTTTTCGAAGGTTCTCTGAGCTACCAACTCTTTGAACCGAGGTAACTGGCTTGGAGGAGCGCAGTCACCAAAACTTGTCCTTTCAGTTTAGCCTTAACCGGCGCATGACTTCAAGACTAACTCCTCTAAATCAATTACCAGTGGCTGCTGCCAGTGGTGCTTTTGCATGTCTTTCCGGGTTGGACTCAAGACGATAGTTACCGGATAAGGCGCAGCGGTCGGACTGAACGGGGGGTTCGTGCATACAGTCCAGCTTGGAGCGAACTGCCTACCCGGAACTGAGTGTCAGGCGTGGAATGAGACAAACGCGGCCATAACAGCGGAATGACACCGGTAAACCGAAAGGCAGGAACAGGAGAGCGCACGAGGGAGCCGCCAGGGGGAAACGCCTGGTATCTTTATAGTCCTGTCGGGTTTCGCCACCACTGATTTGAGCGTCAGATTTCGTGATGCTTGTCAGGGGGGCGGAGCCTATGGAAAAACGGCTTTTGCCGCGGCCCTCTCACTTCCCTGTTAAGTATCTTCCTGGCATCTTCCAGGAAATCTCCGCCCCGTTCGTAAGCCATTTCCGCTCGCCGCAGTCGAACGACCGAGCGTAGCGAGTCAGTGAGCGAGGAAGCGGAATATATCC" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqp15A> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqpBBR1/1>
+    sbol:displayId "seqpBBR1" ;
+    sbol:elements "CTACCGGCGCGGCAGCGTTACCCGTGTCGGCGGCTCCAACGGCTCGCCATCGTCCAGAAAACACGGCTCATCGGGCATCGGCAGGCGCTGCTGCCCGCGCCGTTCCCATTCCTCCGTTTCGGTCAAGGCTGGCAGGTCTGGTTCCATGCCCGGAATGCCGGGCTGGCTGGGCGGCTCCTCGCCGGGGCCGGTCGGTAGTTGCTGCTCGCCCGGATACAGGGTCGGGATGCGGCGCAGGTCGCCATGCCCCAACAGCGATTCGTCCTGGTCGTCGTGATCAACCACCACGGCGGCACTGAACACCGACAGGCGCAACTGGTCGCGGGGCTGGCCCCACGCCACGCGGTCATTGACCACGTAGGCCGACACGGTGCCGGGGCCGTTGAGCTTCACGACGGAGATCCAGCGCTCGGCCACCAAGTCCTTGACTGCGTATTGGACCGTCCGCAAAGAACGTCCGATGAGCTTGGAAAGTGTCTTCTGGCTGACCACCACGGCGTTCTGGTGGCCCATCTGCGCCACGAGGTGATGCAGCAGCATTGCCGCCGTGGGTTTCCTCGCAATAAGCCCGGCCCACGCCTCATGCGCTTTGCGTTCCGTTTGCACCCAGTGACCGGGCTTGTTCTTGGCTTGAATGCCGATTTCTCTGGACTGCGTGGCCATGCTTATCTCCATGCGGTAGGGGTGCCGCACGGTTGCGGCACCATGCGCAATCAGCTGCAACTTTTCGGCAGCGCGACAACAATTATGCGTTGCGTAAAAGTGGCAGTCAATTACAGATTTTCTTTAACCTACGCAATGAGCTATTGCGGGGGGTGCCGCAATGAGCTGTTGCGTACCCCCCTTTTTTAAGTTGTTGATTTTTAAGTCTTTCGCATTTCGCCCTATATCTAGTTCTTTGGTGCCCAAAGAAGGGCACCCCTGCGGGGTTCCCCCACGCCTTCGGCGCGGCTCCCCCTCCGGCAAAAAGTGGCCCCTCCGGGGCTTGTTGATCGACTGCGCGGCCTTCGGCCTTGCCCAAGGTGGCGCTGCCCCCTTGGAACCCCCGCACTCGCCGCCGTGAGGCTCGGGGGGCAGGCGGGCGGGCTTCGCCCTTCGACTGCCCCCACTCGCATAGGCTTGGGTCGTTCCAGGCGCGTCAAGGCCAAGCCGCTGCGCGGTCGCTGCGCGAGCCTTGACCCGCCTTCCACTTGGTGTCCAACCGGCAAGCGAAGCGCGCAGGCCGCAGGCCGGAGGCTTTTCCCCAGAGAAAATTAAAAAAATTGATGGGGCAAGGCCGCAGGCCGCGCAGTTGGAGCCGGTGGGTATGTGGTCGAAGGCTGGGTAGCCGGTGGGCAATCCCTGTGGTCAAGCTCGTGGGCAGGCGCAGCCTGTCCATCAGCTTGTCCAGCAGGGTTGTCCACGGGCCGAGCGAAGCGAGCCAGCCGGTGGCCGCTCGCGGCCATCGTCCACATATCCACGGGCTGGCAAGGGAGCGCAGCGACCGCGCAGGGCGAAGCCCGGAGAGCAAGCCCGTAGGGGG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqpBBR1> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqpBBR322_ROP/1>
+    sbol:displayId "seqpBBR322_ROP" ;
+    sbol:elements "CCGTAGAAAAGATCAAAGGATCTTCTTGAGATCCTTTTTTTCTGCGCGTAATCTGCTGCTTGCAAACAAAAAAACCACCGCTACCAGCGGTGGTTTGTTTGCCGGATCAAGAGCTACCAACTCTTTTTCCGAAGGTAACTGGCTTCAGCAGAGCGCAGATACCAAATACTGTCCTTCTAGTGTAGCCGTAGTTAGGCCACCACTTCAAGAACTCTGTAGCACCGCCTACATACCTCGCTCTGCTAATCCTGTTACCAGTGGCTGCTGCCAGTGGCGATAAGTCGTGTCTTACCGGGTTGGACTCAAGACGATAGTTACCGGATAAGGCGCAGCGGTCGGGCTGAACGGGGGGTTCGTGCACACAGCCCAGCTTGGAGCGAACGACCTACACCGAACTGAGATACCTACAGCGTGAGCTATGAGAAAGCGCCACGCTTCCCGAAGGGAGAAAGGCGGACAGGTATCCGGTAAGCGGCAGGGTCGGAACAGGAGAGCGCACGAGGGAGCTTCCAGGGGGAAACGCCTGGTATCTTTATAGTCCTGTCGGGTTTCGCCACCTCTGACTTGAGCGTCGATTTTTGTGATGCTCGTCAGGGGGGCGGAGCCTATGGAAAAACGCCAGCAACGCGGCCTTTTTACGGTTCCTGGCCTTTTGCTGGCCTTTTGCTCACATGTTCTTTCCTGCGTTATCCCCTGATTCTGTGGATAACCGTATTACCGCCTTTGAGTGAGCTGATACCGCTCGCCGCAGCCGAACGACCGAGCGCAGCGAGTCAGTGAGCGAGGAAGCGGAAGAGCGCCTGATGCGGTATTTTCTCCTTACGCATCTGTGCGGTATTTCACACCGCATATGGTGCACTCTCAGTACAATCTGCTCTGATGCCGCATAGTTAAGCCAGTATACACTCCGCTATCGCTACGTGACTGGGTCATGGCTGCGCCCCGACACCCGCCAACACCCGCTGACGCGCCCTGACGGGCTTGTCTGCTCCCGGCATCCGCTTACAGACAAGCTGTGACCGTCTCCGGGAGCTGCATGTGTCAGAGGTTTTCACCGTCATCACCGAAACGCGCGAGGCAGCTGCGGTAAAGCTCATCAGCGTGGTCGTGCAGCGATTCACAGATGTCTGCCTGTTCATCCGCGTCCAGCTCGTTGAGTTTCTCCAGAAGCGTTAATGTCTGGCTTCTGATAAAGCGGGCCATGTTAAGGGCGGTTTTTTCCTGTTTGGTCACTGATGCCTCCGTGTAAGGGGGATTTCTGTTCATGGGGGTAATGATACCGATGAAACGAGAGAGGATGCTCACGATACGGGTTACTGATGATGAACATGCCCGGTTACTGGAACGTTGTGAGGGTAAACAACTGGCGGTATGGATGCGGCGGG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqpBBR322_ROP> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqpRO1600_ColE1/1>
+    sbol:displayId "seqpRO1600_ColE1" ;
+    sbol:elements "GATAATCTCATGACCAAAATCCCTTAACGTGAGTTTTCGTTCCACTGAGCGTCAGACCCCGTAGAAAAGATCAAAGGATCTTCTTGAGATCCTTTTTTTCTGCGCGTAATCTGCTGCTTGCAAACAAAAAAACCACCGCTACCAGCGGTGGTTTGTTTGCCGGATCAAGAGCTACCAACTCTTTTTCCGAAGGTAACTGGCTTCAGCAGAGCGCAGATACCAAATACTGTTCTTCTAGTGTAGCCGTAGTTAGGCCACCACTTCAAGAACTCTGTAGCACCGCCTACATACCTCGCTCTGCTAATCCTGTTACCAGTGGCTGCTGCCAGTGGCGATAAGTCGTGTCTTACCGGGTTGGACTCAAGACGATAGTTACCGGATAAGGCGCAGCGGTCGGGCTGAACGGGGGGTTCGTGCACACAGCCCAGCTTGGAGCGAACGACCTACACCGAACTGAGATACCTACAGCGTGAGCTATGAGAAAGCGCCACGCTTCCCGAAGGGAGAAAGGCGGACAGGCATCCGGTAAGCGGCAGGGTCGGAACAGGAGAGCGCACGAGGGAGCTTCCAGGGGGAAACGCCTGGTATCTTTATAGTCCTGTCGGGTTTCGCCACCTCTGACTTGAGCGTCGATTTTTGTGATGCTCGTCAGGGGGGCGGAGCCTATGGAAAAACGCCAGCAACGCGGCCGTGAAAGGCAGGCCGGTCCGTGGTGGCCACGGCCTCTAGGCCAGATCCAGCGGCATCTGGGTTAGTCGAGCGCGGGCCGCTTCCCATGTCTCACCAGGGCGAGCCTGTTTCGCGATCTCAGCATCTGAAATCTTCCCGGCCTTGCGCTTCGCTGGGGCCTTACCCACCGCCTTGGCGGGCTTCTTCGGTCCAAAACTGAACAACAGATGTGTGACCTTGCGCCCGGTCTTTCGCTGCGCCCACTCCACCTGTAGCGGGCTGTGCTCGTTGATCTGCGTCACGGCTGGATCAAGCACTCGCAACTTGAAGTCCTTGATCGAGGGATACCGGCCTTCCAGTTGAAACCACTTTCGCAGCTGGTCAATTTCTATTTCGCGCTGGCCGATGCTGTCCCATTGCATGAGCAGCTCGTAAAGCCTGATCGCGTGGGTGCTGTCCATCTTGGCCACGTCAGCCAAGGCGTATTTGGTGAACTGTTTGGTGAGTTCCGTCAGGTACGGCAGCATGTCTTTGGTGAACCTGAGTTCTACACGGCCCTCACCCTCCCGGTAGATGATTGTTTGCACCCAGCCGGTAATCATCACACTCGGTCTTTTCCCCTTGCCATTGGGCTCTTGGGTTAACCGGACTTCCCGCCGTTTCAGGCGCAGGGCCGCTTCTTTGAGCTGGTTGTAGGAAGATTCGATAGGGACACCCGCCATCGTCGCTATGTCCTCCGCCGTCACTGAATACATCACTTCATCGGTGACAGGCTCGCTCCTCTTCACCTGGCTAATACAGGCCAGAACGATCCGCTGTTCCTGAACACTGAGGCGATACGCGGCCTCGACCAGGGCATTGCTTTTGTAAACCATTGGGGGTGAGGCCACGTTCGACATTCCTTGTGTATAAGGGGACACTGTATCTGCGTCCCACAATACAACAAATCCGTCCCTTTACAACAACAAATCCGTCCCTTCTTAACAACAAATCCGTCCCTTAATGGCAACAAATCCGTCCCTTTTTAAACTCTACAGGCCACGGATTACGTGGCCTGTAGACGTCCTAAAAGGTTTAAAAGGGAAAAGGAAGAAAAGGGTGGAAACGCAAAAAACGCACCACTACGTGGCCCCGTTGGGGCCGCATTTGTGCCCCTGAAGGGGCGGGGGAGGCGTCTGGGCAATCCCCGTTTTACCAGTCCCCTATCGCCGCCTGAGAGGGCGCAGGAAGCGAGTAATCAGGGTATCGAGGCGGATTCACCCTTGGCGTCCAACCAGCGGCACCAGCGGCGCCTGAGAGG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqpRO1600_ColE1> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqpSC101/1>
+    sbol:displayId "seqpSC101" ;
+    sbol:elements "TCAGATCCTTCCGTATTTAGCCAGTATGTTCTCTAGTGTGGTTCGTTGTTTTTGCGTGAGCCATGAGAACGAACCATTGAGATCATACTTACTTTGCATGTCACTCAAAAATTTTGCCTCAAAACTGGTGAGCTGAATTTTTGCAGTTAAAGCATCGTGTAGTGTTTTTCTTAGTCCGTTATGTAGGTAGGAATCTGATGTAATGGTTGTTGGTATTTTGTCACCATTCATTTTTATCTGGTTGTTCTCAAGTTCGGTTACGAGATCCATTTGTCTATCTAGTTCAACTTGGAAAATCAACGTATCAGTCGGGCGGCCTCGCTTATCAACCACCAATTTCATATTGCTGTAAGTGTTTAAATCTTTACTTATTGGTTTCAAAACCCATTGGTTAAGCCTTTTAAACTCATGGTAGTTATTTTCAAGCATTAACATGAACTTAAATTCATCAAGGCTAATCTCTATATTTGCCTTGTGAGTTTTCTTTTGTGTTAGTTCTTTTAATAACCACTCATAAATCCTCATAGAGTATTTGTTTTCAAAAGACTTAACATGTTCCAGATTATATTTTATGAATTTTTTTAACTGGAAAAGATAAGGCAATATCTCTTCACTAAAAACTAATTCTAATTTTTCGCTTGAGAACTTGGCATAGTTTGTCCACTGGAAAATCTCAAAGCCTTTAACCAAAGGATTCCTGATTTCCACAGTTCTCGTCATCAGCTCTCTGGTTGCTTTAGCTAATACACCATAAGCATTTTCCCTACTGATGTTCATCATCTGAGCGTATTGGTTATAAGTGAACGATACCGTCCGTTCTTTCCTTGTAGGGTTTTCAATCGTGGGGTTGAGTAGTGCCACACAGCATAAAATTAGCTTGGTTTCATGCTCCGTTAAGTCATAGCGACTAATCGCTAGTTCATTTGCTTTGAAAACAACTAATTCAGACATACATCTCAATTGGTCTAGGTGATTTTAATCACTATACCAATTGAGATGGGCTAGTCAATGATAATTACATGTCCTTTTCCTTTGAGTTGTGGGTATCTGTAAATTCTGCTAGACCTTTGCTGGAAAACTTGTAAATTCTGCTAGACCCTCTGTAAATTCCGCTAGACCTTTGTGTGTTTTTTTTGTTTATATTCAAGTGGTTATAATTTATAGAATAAAGAAAGAATAAAAAAAGATAAAAAGAATAGATCCCAGCCCTGTGTATAACTCACTACTTTAGTCAGTTCCGCAGTATTACAAAAGGATGTCGCAAACGCTGTTTGCTCCTCTACAAAACAGACCTTAAAACCCTAAAGGCTTAAGTAGCACCCTCGCAAGCTCGGGCAAATCGCTGAATATTCCTTTTGTCTCCGACCATCAGGCACCTGAGTCGCTGTCTTTTTCGTGACATTCAGTTCGCTGCGCTCACGGCTCTGGCAGTGAATGGGGGTAAATGGCACTACAGGCGC" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqpSC101> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqpUC/1>
+    sbol:displayId "seqpUC" ;
+    sbol:elements "CCGTAGAAAAGATCAAAGGATCTTCTTGAGATCCTTTTTTTCTGCGCGTAATCTGCTGCTTGCAAACAAAAAAACCACCGCTACCAGCGGTGGTTTGTTTGCCGGATCAAGAGCTACCAACTCTTTTTCCGAAGGTAACTGGCTTCAGCAGAGCGCAGATACCAAATACTGTTCTTCTAGTGTAGCCGTAGTTAGGCCACCACTTCAAGAACTCTGTAGCACCGCCTACATACCTCGCTCTGCTAATCCTGTTACCAGTGGCTGCTGCCAGTGGCGATAAGTCGTGTCTTACCGGGTTGGACTCAAGACGATAGTTACCGGATAAGGCGCAGCGGTCGGGCTGAACGGGGGGTTCGTGCACACAGCCCAGCTTGGAGCGAACGACCTACACCGAACTGAGATACCTACAGCGTGAGCTTTGAGAAAGCGCCACGCTTCCCGAAGGGAGAAAGGCGGACAGGTATCCGGTAAGCGGCAGGGTCGGAACAGGAGAGCGCACGAGGGAGCTTCCAGGGGGAAACGCCTGGTATCTTTATAGTCCTGTCGGGTTTCGCCACCTCTGACTTGAGCGTCGATTTTTGTGATGCTCGTCAGGGGGGCGGAGCCTATGGAAAAACGCCAGCAACGCGGCCTTTTTACGGTTCCTGGCCTTTTGCTGGCCTTTTGCTCACATGTTCTTTCCTGCGTTATCCCCTGATTCTGTGGATAACCGTATTACCGCCTTTGAGTGAGCTGATACCGCTCGCCGCAGCCGAACGACCGAGCGCAGCGAGTCAGTGAGCGAGGAAGCGGAAGAGCGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCA" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqpUC> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqxylS_Pm/1>
+    sbol:displayId "seqxylS_Pm" ;
+    sbol:elements "ACGTTCGTAATCAAGCCACTTCCTTTTTGCATTGACGCAGGGTGTCGGAAGGCAACTCGCCGAACGCGCTCCTATAGTTTTCAGCGAAGCGTCCCAAATGTAAGAAGCCGTAGTCTAGGGCTATCTCAGTTATACTACGCACATTGGCACTGGGATCGTTCAAGCAGGCGCGGATGCTTTCGAGCTTGCGGTTGCGGATGTAGTTCTTCGGCGTGGTGCCGGCGTGCTTCTCGAACAAATTGTAGAGCGAGCGTGGACTCATCATCGCCAGCTCCGCTAACCGCTCAAGGCTGATATTCCGTTTGAGATTCTCCTCAATGAATTGAACGACTCGCTCGAAAGACGGGTTACCTTTGCTGAAAATTTCACGGCTGACATTGCTGCCCAGCATTTCGAGCAGCTTGGAAGCGATGATCCCCGCATAGTGCTCTTGGACCCGAGGCATCGACTTTGTATGTTCCGCTTCGTCACAAACTAACCCGAGTAGATTGATAAAGCCATCGAGTTGCTGGAGATTGTGTCGCGCGGCGAAACGGATACCCTCCCTCGGCTTGTGCCAATTGTTGTCACTGCACGCCCGATCAAGGACCACTGAGGGCAATTTAACGATAAATTTCTCGCAATCTTCTGAATAGGTCAGGTCGGCTTGGTCATCCGGATTGAGCAGCAATAGTTCGCCCGGCGCAAAATAGTGCTCCTGGCCATGGCCACGCCACAGGCAATGGCCTTTGAGTATTATTTGCAGATGATAACAGGTCTCTAATCCAGGCGAGATTACCCTCACGCTACCGCCGTAGCTGATTCGACACAGATCGAGGCATCCGAAGATTCTGTGGTGCAGCCTGCCTGCCGGGCGCCCGCCCTTGGGCAGGCGAATAGAGTGCGTACCGACATACTGGTTAACATAATCGGAGACTGCATAGGGCTCGGCGTGGACGAAGATCTGACTTTTCTCGTTCAATAAGCAAAAATCCATAGTTCACGGTTCTCTTATTTTAATGTGGGCTGCTTGGTGTGATGTAGAAAGGCGCCAAGTCGATGAAAATGCATCTCGACGTGATGCGTATACGGGTTACCCCCATTGCCACGTTGCGCCATCCTTTTTGCAATCAGTGACCACTTTTCCAAGCAAAAATAACGCCAAGCAGAACGAAGACGTTCTTTTTAAGAAGCGAGAACACCAGAAGTTCGTGCTGTCGGGGCATGGGGCGACGAATTGGCGGATAAAGGGGATCTGCTGGATATTACGGCCTTTTTAAAGACCGTAAAGAAAAATAAGCACAAGTTTTATCCGGCCTTTATTCACATTCTTGCCCGCCTGATGAATGCTCATCCGTAATTACGTATGGCAATGAAAGACGGTGAGCTGGTGATATGGGATAGTGTTCACCCTTGTTACACCGTTTTCCATGAGCAAACTGAAACGTTTTCATCGCTCTGGAGTGAATACCACGACGATTTCCGGCAGTTTCTACACATATATTCGCAAGATGTGGCGTGTTACGGTGAAAACCTGGCCTATTTCCCTAAAGGGTTTATTGAGAATATGTTTTTCGTCTCAGCCAATCCCTGGGTGAGTTTCACCAGTTTTGATTTAAACGTGGCCAATATGGACAACTTCTTCGCCCCCGTTTTCACCATGCATGGGAATTAGCTTGATCTGACCAACGACCGGTAGCGGAGCTATCCAACGGCGGTATACCAGGAAAACACACAGCAGGTACATCAGAACAGTACCATGACTGAAGAACAAATAGTTTTTTCCTGATCCATAAAGCAGAACGGCCTGCTCCATGACAAATCTGGCTCCCCAACTAATGCCCCATGCAGCCAGCATAACCAGCATAAAGTGCAGTGTCCGGTTTGATAGGGATAAGTCCAGCCTTGCAAGAAGCGGATACAGGAGTGCAAAAAATGGCTATCTCTAGTAAGGCCTACCCCTTAGGCTTTATGCAACAGAAACAATAATAATGGAGTCATGACCATGCCTAGGCCGCGGCCGCGCGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGCGGCCGCGTCGTGACTGGGAAAACCCTGGCG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqxylS_Pm> ;
+    a sbol:Sequence .
+
+<http://synbiohub.org/public/seva/seqxylS_Pm_RBS/1>
+    sbol:displayId "seqxylS_Pm_RBS" ;
+    sbol:elements "ACGTTCGTAATCAAGCCACTTCCTTTTTGCATTGACGCAGGGTGTCGGAAGGCAACTCGCCGAACGCGCTCCTATAGTTTTCAGCGAAGCGTCCCAAATGTAAGAAGCCGTAGTCTAGGGCTATCTCAGTTATACTACGCACATTGGCACTGGGATCGTTCAAGCAGGCGCGGATGCTTTCGAGCTTGCGGTTGCGGATGTAGTTCTTCGGCGTGGTGCCGGCGTGCTTCTCGAACAAATTGTAGAGCGAGCGTGGACTCATCATCGCCAGCTCCGCTAACCGCTCAAGGCTGATATTCCGTTTGAGATTCTCCTCAATGAATTGAACGACTCGCTCGAAAGACGGGTTACCTTTGCTGAAAATTTCACGGCTGACATTGCTGCCCAGCATTTCGAGCAGCTTGGAAGCGATGATCCCCGCATAGTGCTCTTGGACCCGAGGCATCGACTTTGTATGTTCCGCTTCGTCACAAACTAACCCGAGTAGATTGATAAAGCCATCGAGTTGCTGGAGATTGTGTCGCGCGGCGAAACGGATACCCTCCCTCGGCTTGTGCCAATTGTTGTCACTGCACGCCCGATCAAGGACCACTGAGGGCAATTTAACGATAAATTTCTCGCAATCTTCTGAATAGGTCAGGTCGGCTTGGTCATCCGGATTGAGCAGCAATAGTTCGCCCGGCGCAAAATAGTGCTCCTGGCCATGGCCACGCCACAGGCAATGGCCTTTGAGTATTATTTGCAGATGATAACAGGTCTCTAATCCAGGCGAGATTACCCTCACGCTACCGCCGTAGCTGATTCGACACAGATCGAGGCATCCGAAGATTCTGTGGTGCAGCCTGCCTGCCGGGCGCCCGCCCTTGGGCAGGCGAATAGAGTGCGTACCGACATACTGGTTAACATAATCGGAGACTGCATAGGGCTCGGCGTGGACGAAGATCTGACTTTTCTCGTTCAATAAGCAAAAATCCATAGTTCACGGTTCTCTTATTTTAATGTGGGCTGCTTGGTGTGATGTAGAAAGGCGCCAAGTCGATGAAAATGCATCTCGACGTGATGCGTATACGGGTTACCCCCATTGCCACGTTGCGCCATCCTTTTTGCAATCAGTGACCACTTTTCCAAGCAAAAATAACGCCAAGCAGAACGAAGACGTTCTTTTTAAGAAGCGAGAACACCAGAAGTTCGTGCTGTCGGGGCATGGGGCGACGAATTGGCGGATAAAGGGGATCTGCTGGATATTACGGCCTTTTTAAAGACCGTAAAGAAAAATAAGCACAAGTTTTATCCGGCCTTTATTCACATTCTTGCCCGCCTGATGAATGCTCATCCGTAATTACGTATGGCAATGAAAGACGGTGAGCTGGTGATATGGGATAGTGTTCACCCTTGTTACACCGTTTTCCATGAGCAAACTGAAACGTTTTCATCGCTCTGGAGTGAATACCACGACGATTTCCGGCAGTTTCTACACATATATTCGCAAGATGTGGCGTGTTACGGTGAAAACCTGGCCTATTTCCCTAAAGGGTTTATTGAGAATATGTTTTTCGTCTCAGCCAATCCCTGGGTGAGTTTCACCAGTTTTGATTTAAACGTGGCCAATATGGACAACTTCTTCGCCCCCGTTTTCACCATGCATGGGAATTAGCTTGATCTGACCAACGACCGGTAGCGGAGCTATCCAACGGCGGTATACCAGGAAAACACACAGCAGGTACATCAGAACAGTACCATGACTGAAGAACAAATAGTTTTTTCCTGATCCATAAAGCAGAACGGCCTGCTCCATGACAAATCTGGCTCCCCAACTAATGCCCCATGCAGCCAGCATAACCAGCATAAAGTGCAGTGTCCGGTTTGATAGGGATAAGTCCAGCCTTGCAAGAAGCGGATACAGGAGTGCAAAAAATGGCTATCTCTAGTAAGGCCTACCCCTTAGGCTTTATGCAACAGAAACAATCCTAGGGGAGTCATGAACATATGAAAAACATCAAAAAAAACCAGGTAATGAACCTGGGTCCGAACTCTAAACTGCTGAAAGAATACAAATCCCAGCTGATCGAACTGAACATCGAACAGTTCGAAGCAGGTATCGGTCTGATCCTGGGTGATGCTTACATCCGTTCTCGTGATGAAGGTAAAACCTACTGTATGCAGTTCGAGTGGAAAAACAAAGCATACATGGACCACGTATGTCTGCTGTACGATCAGTGGGTACTGTCCCCGCCGCACAAAAAAGAACGTGTTAACCACCTGGGTAACCTGGTAATCACCTGGGGCGCCCAGACTTTCAAACACCAGGCTTTCAACAAACTGGCTAACCTGTTCATCGTTAACAACAAAAAAACCATCCCGAACAACCTGGTTGAAAACTACCTGACCCCGATGTCTCTGGCATACTGGTTCATGGATGATGGTGGTAAATGGGATTACAACAAAAACTCTACCAACAAATCGATCGTACTGAACACCCAGTCTTTCACTTTCGAAGAAGTAGAATACCTGGTTAAGGGTCTGCGTAACAAATTCCAACTGAACTGTTACGTAAAAATCAACAAAAACAAACCGATCATCTACATCGATTCTATGTCTTACCTGATCTTCTACAACCTGATCAAACCGTACCTGATCCCGCAGATGATGTACAAACTGCCGAACACTATCTCCTCCGAAACTTTCCTGAAATAATAAGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGCGGCCGCGTCGTGACTGGGAAAACCCTGGCG" ;
+    sbol:encoding <http://synbiohub.org/public/> ;
+    sbol:persistentIdentity <http://synbiohub.org/public/seva/seqxylS_Pm_RBS> ;
+    a sbol:Sequence .
+
